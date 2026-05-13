@@ -1,0 +1,7 @@
+{
+  "language": "C#",
+  "targetFramework": "net8.0",
+  "assemblyName": "ConnectHub.Room.API",
+  "projectType": "Product",
+  "projectPath": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\ConnectHub.Room.API.csproj"
+}

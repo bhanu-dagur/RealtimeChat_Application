@@ -1,0 +1,9 @@
+﻿D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\Middleware.cs\RequestLoggingMiddleware.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\Program.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\obj\Debug\net8.0\ConnectHub.Gateway.GlobalUsings.g.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\obj\Debug\net8.0\ConnectHub.Gateway.AssemblyInfo.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\appsettings.Development.json
+D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\appsettings.json
+D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\Dockerfile
+D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\Properties\launchSettings.json

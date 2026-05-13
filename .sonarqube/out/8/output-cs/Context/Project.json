@@ -1,0 +1,7 @@
+{
+  "language": "C#",
+  "targetFramework": "net8.0",
+  "assemblyName": "ConnectHub.Auth.API.Tests",
+  "projectType": "Test",
+  "projectPath": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\ConnectHub.Auth.API.Tests.csproj"
+}

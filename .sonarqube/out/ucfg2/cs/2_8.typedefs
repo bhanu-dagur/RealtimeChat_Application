@@ -1,0 +1,90 @@
+1
+Programobject
+	Program()Program.Program()
+%ConnectHub.Hub.API.Models.ChatMessageobjectD
+ChatMessage()3ConnectHub.Hub.API.Models.ChatMessage.ChatMessage()D
+MessageId.get3ConnectHub.Hub.API.Models.ChatMessage.MessageId.getD
+MessageId.set3ConnectHub.Hub.API.Models.ChatMessage.MessageId.setB
+SenderId.get2ConnectHub.Hub.API.Models.ChatMessage.SenderId.getB
+SenderId.set2ConnectHub.Hub.API.Models.ChatMessage.SenderId.setF
+SenderName.get4ConnectHub.Hub.API.Models.ChatMessage.SenderName.getF
+SenderName.set4ConnectHub.Hub.API.Models.ChatMessage.SenderName.setF
+ReceiverId.get4ConnectHub.Hub.API.Models.ChatMessage.ReceiverId.getF
+ReceiverId.set4ConnectHub.Hub.API.Models.ChatMessage.ReceiverId.set>
+
+RoomId.get0ConnectHub.Hub.API.Models.ChatMessage.RoomId.get>
+
+RoomId.set0ConnectHub.Hub.API.Models.ChatMessage.RoomId.set@
+Content.get1ConnectHub.Hub.API.Models.ChatMessage.Content.get@
+Content.set1ConnectHub.Hub.API.Models.ChatMessage.Content.setH
+MessageType.get5ConnectHub.Hub.API.Models.ChatMessage.MessageType.getH
+MessageType.set5ConnectHub.Hub.API.Models.ChatMessage.MessageType.setB
+MediaUrl.get2ConnectHub.Hub.API.Models.ChatMessage.MediaUrl.getB
+MediaUrl.set2ConnectHub.Hub.API.Models.ChatMessage.MediaUrl.setR
+ReplyToMessageId.get:ConnectHub.Hub.API.Models.ChatMessage.ReplyToMessageId.getR
+ReplyToMessageId.set:ConnectHub.Hub.API.Models.ChatMessage.ReplyToMessageId.setB
+IsEdited.get2ConnectHub.Hub.API.Models.ChatMessage.IsEdited.getB
+IsEdited.set2ConnectHub.Hub.API.Models.ChatMessage.IsEdited.setD
+IsDeleted.get3ConnectHub.Hub.API.Models.ChatMessage.IsDeleted.getD
+IsDeleted.set3ConnectHub.Hub.API.Models.ChatMessage.IsDeleted.set>
+
+SentAt.get0ConnectHub.Hub.API.Models.ChatMessage.SentAt.get>
+
+SentAt.set0ConnectHub.Hub.API.Models.ChatMessage.SentAt.setB
+EditedAt.get2ConnectHub.Hub.API.Models.ChatMessage.EditedAt.getB
+EditedAt.set2ConnectHub.Hub.API.Models.ChatMessage.EditedAt.setÝ
+1ConnectHub.Hub.API.Controllers.PresenceController'Microsoft.AspNetCore.Mvc.ControllerBaseobject¶
+@PresenceController(ConnectHub.Hub.API.Services.IPresenceService)rConnectHub.Hub.API.Controllers.PresenceController.PresenceController(ConnectHub.Hub.API.Services.IPresenceService)V
+GetOnlineUsers()BConnectHub.Hub.API.Controllers.PresenceController.GetOnlineUsers()V
+GetOnlineCount()BConnectHub.Hub.API.Controllers.PresenceController.GetOnlineCount()^
+GetOnlineUsersInfo()FConnectHub.Hub.API.Controllers.PresenceController.GetOnlineUsersInfo()P
+IsOnline(int)?ConnectHub.Hub.API.Controllers.PresenceController.IsOnline(int)\
+GetConnections(int)EConnectHub.Hub.API.Controllers.PresenceController.GetConnections(int)Í
+(ConnectHub.Hub.API.Models.UserConnectionobjectM
+UserConnection()9ConnectHub.Hub.API.Models.UserConnection.UserConnection()M
+ConnectionId.get9ConnectHub.Hub.API.Models.UserConnection.ConnectionId.getM
+ConnectionId.set9ConnectHub.Hub.API.Models.UserConnection.ConnectionId.setA
+
+UserId.get3ConnectHub.Hub.API.Models.UserConnection.UserId.getA
+
+UserId.set3ConnectHub.Hub.API.Models.UserConnection.UserId.setE
+UserName.get5ConnectHub.Hub.API.Models.UserConnection.UserName.getE
+UserName.set5ConnectHub.Hub.API.Models.UserConnection.UserName.setK
+ConnectedAt.get8ConnectHub.Hub.API.Models.UserConnection.ConnectedAt.getK
+ConnectedAt.set8ConnectHub.Hub.API.Models.UserConnection.ConnectedAt.set0
+.ConnectHub.Hub.API.Services.IUserStatusService.
+,ConnectHub.Hub.API.Services.IPresenceServiceõ
+ConnectHub.Hub.API.Hubs.ChatHub Microsoft.AspNetCore.SignalR.Hubobjectþ
+¬ChatHub(ConnectHub.Hub.API.Services.IPresenceService, ConnectHub.Hub.API.Services.IUserStatusService, Microsoft.Extensions.Logging.ILogger<ConnectHub.Hub.API.Hubs.ChatHub>)ÌConnectHub.Hub.API.Hubs.ChatHub.ChatHub(ConnectHub.Hub.API.Services.IPresenceService, ConnectHub.Hub.API.Services.IUserStatusService, Microsoft.Extensions.Logging.ILogger<ConnectHub.Hub.API.Hubs.ChatHub>)H
+OnConnectedAsync()2ConnectHub.Hub.API.Hubs.ChatHub.OnConnectedAsync()p
+&OnDisconnectedAsync(System.Exception?)FConnectHub.Hub.API.Hubs.ChatHub.OnDisconnectedAsync(System.Exception?)”
+8SendDirectMessage(ConnectHub.Hub.API.Models.ChatMessage)XConnectHub.Hub.API.Hubs.ChatHub.SendDirectMessage(ConnectHub.Hub.API.Models.ChatMessage)ž
+=BroadcastMessageEdited(ConnectHub.Hub.API.Models.ChatMessage)]ConnectHub.Hub.API.Hubs.ChatHub.BroadcastMessageEdited(ConnectHub.Hub.API.Models.ChatMessage)t
+(BroadcastMessageDeleted(int, int?, int?)HConnectHub.Hub.API.Hubs.ChatHub.BroadcastMessageDeleted(int, int?, int?)Œ
+4BroadcastMessageDelivered(int, int, System.DateTime)TConnectHub.Hub.API.Hubs.ChatHub.BroadcastMessageDelivered(int, int, System.DateTime)X
+BroadcastMessagesRead(int):ConnectHub.Hub.API.Hubs.ChatHub.BroadcastMessagesRead(int)
+6SendRoomMessage(ConnectHub.Hub.API.Models.ChatMessage)VConnectHub.Hub.API.Hubs.ChatHub.SendRoomMessage(ConnectHub.Hub.API.Models.ChatMessage)>
+JoinRoom(int)-ConnectHub.Hub.API.Hubs.ChatHub.JoinRoom(int)@
+LeaveRoom(int).ConnectHub.Hub.API.Hubs.ChatHub.LeaveRoom(int)f
+!TypingIndicator(int?, int?, bool)AConnectHub.Hub.API.Hubs.ChatHub.TypingIndicator(int?, int?, bool)V
+MarkMessageRead(int, int)9ConnectHub.Hub.API.Hubs.ChatHub.MarkMessageRead(int, int)’
+7SendMediaMessage(ConnectHub.Hub.API.Models.ChatMessage)WConnectHub.Hub.API.Hubs.ChatHub.SendMediaMessage(ConnectHub.Hub.API.Models.ChatMessage)n
+%SendNotification(int, string, string)EConnectHub.Hub.API.Hubs.ChatHub.SendNotification(int, string, string):
+GetUserId()+ConnectHub.Hub.API.Hubs.ChatHub.GetUserId()>
+GetUserName()-ConnectHub.Hub.API.Hubs.ChatHub.GetUserName()‹
++ConnectHub.Hub.API.Services.PresenceServiceobject,ConnectHub.Hub.API.Services.IPresenceService~
+'UserConnectedAsync(int, string, string)SConnectHub.Hub.API.Services.PresenceService.UserConnectedAsync(int, string, string)t
+"UserDisconnectedAsync(int, string)NConnectHub.Hub.API.Services.PresenceService.UserDisconnectedAsync(int, string)p
+ GetConnectionsByUserIdAsync(int)LConnectHub.Hub.API.Services.PresenceService.GetConnectionsByUserIdAsync(int)\
+IsUserOnlineAsync(int)BConnectHub.Hub.API.Services.PresenceService.IsUserOnlineAsync(int)^
+GetOnlineUserIdsAsync()CConnectHub.Hub.API.Services.PresenceService.GetOnlineUserIdsAsync()b
+GetOnlineUsersInfoAsync()EConnectHub.Hub.API.Services.PresenceService.GetOnlineUsersInfoAsync()Z
+GetOnlineCountAsync()AConnectHub.Hub.API.Services.PresenceService.GetOnlineCountAsync()l
+ClearUserConnectionsAsync(int)JConnectHub.Hub.API.Services.PresenceService.ClearUserConnectionsAsync(int)R
+PresenceService()=ConnectHub.Hub.API.Services.PresenceService.PresenceService()Ñ
+&ConnectHub.Hub.API.Hubs.UserIdProviderobject,Microsoft.AspNetCore.SignalR.IUserIdProvider£
+<GetUserId(Microsoft.AspNetCore.SignalR.HubConnectionContext)cConnectHub.Hub.API.Hubs.UserIdProvider.GetUserId(Microsoft.AspNetCore.SignalR.HubConnectionContext)K
+UserIdProvider()7ConnectHub.Hub.API.Hubs.UserIdProvider.UserIdProvider()¢
+-ConnectHub.Hub.API.Services.UserStatusServiceobject.ConnectHub.Hub.API.Services.IUserStatusService¸
+‚UserStatusService(System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger<ConnectHub.Hub.API.Services.UserStatusService>)°ConnectHub.Hub.API.Services.UserStatusService.UserStatusService(System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger<ConnectHub.Hub.API.Services.UserStatusService>)~
+&UpdateUserOnlineStatusAsync(int, bool)TConnectHub.Hub.API.Services.UserStatusService.UpdateUserOnlineStatusAsync(int, bool)

@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "c7ec9aaef-0ce0-40f4-8113-0736292eed86",
+		"name": "ConnectHub API",
+		"description": "Full-stack Realtime Chat Application API Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"user@example.com\",\n    \"password\": \"P@ssword123\"\n}",
+							"options": { "raw": { "language": "json" } }
+						},
+						"url": { "raw": "{{baseUrl}}/api/users/login", "host": ["{{baseUrl}}"], "path": ["api", "users", "login"] }
+					}
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"displayName\": \"New User\",\n    \"userName\": \"newuser\",\n    \"email\": \"new@example.com\",\n    \"password\": \"P@ssword123\",\n    \"bio\": \"Hello!\"\n}",
+							"options": { "raw": { "language": "json" } }
+						},
+						"url": { "raw": "{{baseUrl}}/api/users/register", "host": ["{{baseUrl}}"], "path": ["api", "users", "register"] }
+					}
+				},
+				{
+					"name": "Get Profile",
+					"request": {
+						"method": "GET",
+						"header": [ { "key": "Authorization", "value": "Bearer {{token}}", "type": "text" } ],
+						"url": { "raw": "{{baseUrl}}/api/users/profile/{{userId}}", "host": ["{{baseUrl}}"], "path": ["api", "users", "profile", "{{userId}}"] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Rooms",
+			"item": [
+				{
+					"name": "Get Public Rooms",
+					"request": {
+						"method": "GET",
+						"header": [ { "key": "Authorization", "value": "Bearer {{token}}", "type": "text" } ],
+						"url": { "raw": "{{baseUrl}}/api/rooms/public", "host": ["{{baseUrl}}"], "path": ["api", "rooms", "public"] }
+					}
+				},
+				{
+					"name": "Create Room",
+					"request": {
+						"method": "POST",
+						"header": [ { "key": "Authorization", "value": "Bearer {{token}}", "type": "text" } ],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"roomName\": \"Test Room\",\n    \"description\": \"My first room\",\n    \"roomType\": 0,\n    \"createdBy\": {{userId}},\n    \"initialMemberIds\": []\n}",
+							"options": { "raw": { "language": "json" } }
+						},
+						"url": { "raw": "{{baseUrl}}/api/rooms", "host": ["{{baseUrl}}"], "path": ["api", "rooms"] }
+					}
+				},
+				{
+					"name": "Join Room",
+					"request": {
+						"method": "POST",
+						"header": [ { "key": "Authorization", "value": "Bearer {{token}}", "type": "text" } ],
+						"url": { "raw": "{{baseUrl}}/api/rooms/{{roomId}}/join/{{userId}}", "host": ["{{baseUrl}}"], "path": ["api", "rooms", "{{roomId}}", "join", "{{userId}}"] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Messages",
+			"item": [
+				{
+					"name": "Get Room History",
+					"request": {
+						"method": "GET",
+						"header": [ { "key": "Authorization", "value": "Bearer {{token}}", "type": "text" } ],
+						"url": { "raw": "{{baseUrl}}/api/messages/room/{{roomId}}?page=1&pageSize=50", "host": ["{{baseUrl}}"], "path": ["api", "messages", "room", "{{roomId}}"], "query": [ { "key": "page", "value": "1" }, { "key": "pageSize", "value": "50" } ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Media",
+			"item": [
+				{
+					"name": "Upload File",
+					"request": {
+						"method": "POST",
+						"header": [ { "key": "Authorization", "value": "Bearer {{token}}", "type": "text" } ],
+						"body": {
+							"mode": "formdata",
+							"formdata": [ { "key": "file", "type": "file", "src": [] }, { "key": "userId", "value": "{{userId}}", "type": "text" } ]
+						},
+						"url": { "raw": "{{baseUrl}}/api/media/upload", "host": ["{{baseUrl}}"], "path": ["api", "media", "upload"] }
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": { "type": "text/javascript", "exec": [ "" ] }
+		},
+		{
+			"listen": "test",
+			"script": { "type": "text/javascript", "exec": [ "" ] }
+		}
+	],
+	"variable": [
+		{ "key": "baseUrl", "value": "http://localhost:5000" },
+		{ "key": "token", "value": "YOUR_JWT_HERE" },
+		{ "key": "userId", "value": "1" },
+		{ "key": "roomId", "value": "1" }
+	]
+}

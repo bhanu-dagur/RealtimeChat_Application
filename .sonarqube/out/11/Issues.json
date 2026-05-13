@@ -1,0 +1,329 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "5.0.0.0",
+        "fileVersion": "5.0.0-2.26217.108 (b16286c2)",
+        "semanticVersion": "5.0.0",
+        "language": "en-GB"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_repoMock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 47,
+                  "endLine": 16,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 47,
+                  "endLine": 16,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_hubContextMock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 52,
+                  "endLine": 17,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 52,
+                  "endLine": 17,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_clientsMock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 35,
+                  "endLine": 18,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 35,
+                  "endLine": 18,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_clientProxyMock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 36,
+                  "endLine": 19,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 36,
+                  "endLine": 19,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_emailMock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 37,
+                  "endLine": 20,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 37,
+                  "endLine": 20,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_loggerMock' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 52,
+                  "endLine": 21,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 52,
+                  "endLine": 21,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_notificationService' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 37,
+                  "endLine": 22,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 37,
+                  "endLine": 22,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit2003",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.True), instead of the classic model, Assert.IsTrue(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projects/RealtimeChatApplication/ConnectHub/tests/ConnectHub.Notification.API.Tests/Services/NotificationServiceTests.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 13,
+                  "endLine": 81,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "IsTrue"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "NUnit2003": {
+          "id": "NUnit2003",
+          "shortDescription": "Consider using Assert.That(expr, Is.True) instead of Assert.IsTrue(expr)",
+          "fullDescription": "Consider using the constraint model, Assert.That(expr, Is.True), instead of the classic model, Assert.IsTrue(expr).",
+          "defaultLevel": "note",
+          "helpUri": "https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2003.md",
+          "properties": {
+            "category": "Assertion",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

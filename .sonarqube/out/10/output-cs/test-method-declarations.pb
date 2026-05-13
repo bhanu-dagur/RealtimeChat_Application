@@ -1,0 +1,7 @@
+«
+^D:\Projects\RealtimeChatApplication\ConnectHub\tests\ConnectHub.Message.API.Tests\UnitTest1.csConnectHub.Message.API.Tests+
+"ConnectHub.Message.API.Tests.TestsTest1÷
+qD:\Projects\RealtimeChatApplication\ConnectHub\tests\ConnectHub.Message.API.Tests\Services\MessageServiceTests.csConnectHub.Message.API.Tests|
+9ConnectHub.Message.API.Tests.Services.MessageServiceTests?SendMessageAsync_ShouldCreateMessageAndNotify_WhenDirectMessager
+9ConnectHub.Message.API.Tests.Services.MessageServiceTests5SendMessageAsync_ShouldHandleMentions_WhenRoomMessager
+9ConnectHub.Message.API.Tests.Services.MessageServiceTests5SendMessageAsync_ShouldThrowException_WhenNoRecipient

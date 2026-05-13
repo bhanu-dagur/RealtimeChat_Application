@@ -1,0 +1,7 @@
+{
+  "language": "C#",
+  "targetFramework": "net8.0",
+  "assemblyName": "ConnectHub.Shared",
+  "projectType": "Product",
+  "projectPath": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Shared\\ConnectHub.Shared\\ConnectHub.Shared.csproj"
+}

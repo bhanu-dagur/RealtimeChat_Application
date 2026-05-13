@@ -1,0 +1,6 @@
+﻿D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Enums\MemberRole.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Enums\MessageType.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Enums\NotificationType.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Enums\RoomType.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Models\ApiResponse.cs
+D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Models\PagedResult.cs

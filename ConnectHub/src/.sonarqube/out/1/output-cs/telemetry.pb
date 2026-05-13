@@ -1,0 +1,1 @@
+qRdD:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\ConnectHub.Shared.csprojòCSharp12

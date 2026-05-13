@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>ConnectHub.Room.API.Tests</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>619d2140-b57a-4499-8691-b2fdea149ceb</ProjectGuid>
+  <FullPath>D:\Projects\RealtimeChatApplication\ConnectHub\tests\ConnectHub.Room.API.Tests\ConnectHub.Room.API.Tests.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResultFiles>
+    <AnalysisResultFile Id="FilesToAnalyze" Location="D:\Projects\RealtimeChatApplication\ConnectHub\src\.sonarqube\conf\9\FilesToAnalyze.txt" />
+  </AnalysisResultFiles>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">D:\Projects\RealtimeChatApplication\ConnectHub\src\.sonarqube\out\9\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">D:\Projects\RealtimeChatApplication\ConnectHub\src\.sonarqube\out\9</Property>
+    <Property Name="sonar.cs.scanner.telemetry">D:\Projects\RealtimeChatApplication\ConnectHub\src\.sonarqube\out\9\Telemetry.json</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net8.0</TargetFramework>
+</ProjectInfo>

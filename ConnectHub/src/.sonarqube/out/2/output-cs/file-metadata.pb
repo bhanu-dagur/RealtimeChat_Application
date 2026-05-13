@@ -1,0 +1,15 @@
+°
+ïD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\obj\Debug\net8.0\ConnectHub.Hub.API.MvcApplicationPartsAssemblyInfo.csutf-8é
+ÇD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\obj\Debug\net8.0\ConnectHub.Hub.API.AssemblyInfo.csutf-8ö
+éD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8ê
+ÑD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\obj\Debug\net8.0\ConnectHub.Hub.API.GlobalUsings.g.csutf-8u
+lD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Services\UserStatusService.csutf-8s
+jD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Services\PresenceService.csutf-8v
+mD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Services\IUserStatusService.csutf-8t
+kD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Services\IPresenceService.csutf-8b
+YD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Program.csutf-8p
+gD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Models\UserConnection.csutf-8m
+dD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Models\ChatMessage.csutf-8n
+eD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Hubs\UserIdProvider.csutf-8g
+^D:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Hubs\ChatHub.csutf-8y
+pD:\Projects\RealtimeChatApplication\ConnectHub\src\Services\ConnectHub.Hub.API\Controllers\PresenceController.csutf-8

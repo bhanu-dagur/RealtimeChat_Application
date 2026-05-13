@@ -1,0 +1,32 @@
+ê
+#ConnectHub.Shared.Enums.MessageTypeSystem.EnumSystem.ValueTypeobjectB
+MessageType()1ConnectHub.Shared.Enums.MessageType.MessageType()§
+(ConnectHub.Shared.Enums.NotificationTypeSystem.EnumSystem.ValueTypeobjectQ
+NotificationType();ConnectHub.Shared.Enums.NotificationType.NotificationType()å
+"ConnectHub.Shared.Enums.MemberRoleSystem.EnumSystem.ValueTypeobject?
+MemberRole()/ConnectHub.Shared.Enums.MemberRole.MemberRole()Ñ
+ ConnectHub.Shared.Enums.RoomTypeSystem.EnumSystem.ValueTypeobject9
+
+RoomType()+ConnectHub.Shared.Enums.RoomType.RoomType()ô
+'ConnectHub.Shared.Models.ApiResponse<T>objectF
+ApiResponse()5ConnectHub.Shared.Models.ApiResponse<T>.ApiResponse()B
+Success.get3ConnectHub.Shared.Models.ApiResponse<T>.Success.getB
+Success.set3ConnectHub.Shared.Models.ApiResponse<T>.Success.set<
+Data.get0ConnectHub.Shared.Models.ApiResponse<T>.Data.get<
+Data.set0ConnectHub.Shared.Models.ApiResponse<T>.Data.setB
+Message.get3ConnectHub.Shared.Models.ApiResponse<T>.Message.getB
+Message.set3ConnectHub.Shared.Models.ApiResponse<T>.Message.setH
+StatusCode.get6ConnectHub.Shared.Models.ApiResponse<T>.StatusCode.getH
+StatusCode.set6ConnectHub.Shared.Models.ApiResponse<T>.StatusCode.set¡
+'ConnectHub.Shared.Models.PagedResult<T>objectF
+PagedResult()5ConnectHub.Shared.Models.PagedResult<T>.PagedResult()>
+	Items.get1ConnectHub.Shared.Models.PagedResult<T>.Items.get>
+	Items.set1ConnectHub.Shared.Models.PagedResult<T>.Items.setH
+TotalCount.get6ConnectHub.Shared.Models.PagedResult<T>.TotalCount.getH
+TotalCount.set6ConnectHub.Shared.Models.PagedResult<T>.TotalCount.setH
+PageNumber.get6ConnectHub.Shared.Models.PagedResult<T>.PageNumber.getH
+PageNumber.set6ConnectHub.Shared.Models.PagedResult<T>.PageNumber.setD
+PageSize.get4ConnectHub.Shared.Models.PagedResult<T>.PageSize.getD
+PageSize.set4ConnectHub.Shared.Models.PagedResult<T>.PageSize.setH
+TotalPages.get6ConnectHub.Shared.Models.PagedResult<T>.TotalPages.getH
+TotalPages.set6ConnectHub.Shared.Models.PagedResult<T>.TotalPages.set

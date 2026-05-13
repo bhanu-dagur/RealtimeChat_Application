@@ -1,0 +1,250 @@
+1
+Programobject
+	Program()Program.Program()Ë
+,ConnectHub.Message.API.Data.MessageDbContext'Microsoft.EntityFrameworkCore.DbContextobjecté
+nMessageDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<ConnectHub.Message.API.Data.MessageDbContext>)õConnectHub.Message.API.Data.MessageDbContext.MessageDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<ConnectHub.Message.API.Data.MessageDbContext>)ß
+;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)hConnectHub.Message.API.Data.MessageDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)K
+SaveChanges():ConnectHub.Message.API.Data.MessageDbContext.SaveChanges()ô
+4SaveChangesAsync(System.Threading.CancellationToken)aConnectHub.Message.API.Data.MessageDbContext.SaveChangesAsync(System.Threading.CancellationToken)M
+NormalizeUtc();ConnectHub.Message.API.Data.MessageDbContext.NormalizeUtc()I
+Messages.get9ConnectHub.Message.API.Data.MessageDbContext.Messages.getI
+Messages.set9ConnectHub.Message.API.Data.MessageDbContext.Messages.setÚ
+9ConnectHub.Message.API.Controllers.AdminMessageController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectÕ
+GAdminMessageController(ConnectHub.Message.API.Services.IMessageService)ÅConnectHub.Message.API.Controllers.AdminMessageController.AdminMessageController(ConnectHub.Message.API.Services.IMessageService)n
+GetAllMessages(int, int)RConnectHub.Message.API.Controllers.AdminMessageController.GetAllMessages(int, int)b
+DeleteMessage(int)LConnectHub.Message.API.Controllers.AdminMessageController.DeleteMessage(int)`
+GetMessageCount()KConnectHub.Message.API.Controllers.AdminMessageController.GetMessageCount()˜
+
+2ConnectHub.Message.API.DTOs.ConversationSummaryDtoobjectg
+ConversationSummaryDto()KConnectHub.Message.API.DTOs.ConversationSummaryDto.ConversationSummaryDto()Q
+PartnerId.get@ConnectHub.Message.API.DTOs.ConversationSummaryDto.PartnerId.getQ
+PartnerId.set@ConnectHub.Message.API.DTOs.ConversationSummaryDto.PartnerId.setY
+LastMessageId.getDConnectHub.Message.API.DTOs.ConversationSummaryDto.LastMessageId.getY
+LastMessageId.setDConnectHub.Message.API.DTOs.ConversationSummaryDto.LastMessageId.setU
+LastMessage.getBConnectHub.Message.API.DTOs.ConversationSummaryDto.LastMessage.getU
+LastMessage.setBConnectHub.Message.API.DTOs.ConversationSummaryDto.LastMessage.set]
+LastMessageType.getFConnectHub.Message.API.DTOs.ConversationSummaryDto.LastMessageType.get]
+LastMessageType.setFConnectHub.Message.API.DTOs.ConversationSummaryDto.LastMessageType.setW
+LastSenderId.getCConnectHub.Message.API.DTOs.ConversationSummaryDto.LastSenderId.getW
+LastSenderId.setCConnectHub.Message.API.DTOs.ConversationSummaryDto.LastSenderId.setS
+LastSentAt.getAConnectHub.Message.API.DTOs.ConversationSummaryDto.LastSentAt.getS
+LastSentAt.setAConnectHub.Message.API.DTOs.ConversationSummaryDto.LastSentAt.setU
+UnreadCount.getBConnectHub.Message.API.DTOs.ConversationSummaryDto.UnreadCount.getU
+UnreadCount.setBConnectHub.Message.API.DTOs.ConversationSummaryDto.UnreadCount.setã
+4ConnectHub.Message.API.Controllers.MessageController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectΩ
+BMessageController(ConnectHub.Message.API.Services.IMessageService)wConnectHub.Message.API.Controllers.MessageController.MessageController(ConnectHub.Message.API.Services.IMessageService)ô
+0Send(ConnectHub.Message.API.DTOs.SendMessageDto)eConnectHub.Message.API.Controllers.MessageController.Send(ConnectHub.Message.API.DTOs.SendMessageDto)s
+GetDirect(int, int, int, int)RConnectHub.Message.API.Controllers.MessageController.GetDirect(int, int, int, int)u
+GetRoomMessages(int, int, int)SConnectHub.Message.API.Controllers.MessageController.GetRoomMessages(int, int, int)U
+GetUnread(int)CConnectHub.Message.API.Controllers.MessageController.GetUnread(int)_
+GetUnreadCount(int)HConnectHub.Message.API.Controllers.MessageController.GetUnreadCount(int)£
+5Edit(int, ConnectHub.Message.API.DTOs.EditMessageDto)jConnectHub.Message.API.Controllers.MessageController.Edit(int, ConnectHub.Message.API.DTOs.EditMessageDto)]
+MarkRead(int, int)GConnectHub.Message.API.Controllers.MessageController.MarkRead(int, int)O
+Delete(int)@ConnectHub.Message.API.Controllers.MessageController.Delete(int)c
+DeleteForMe(int, int)JConnectHub.Message.API.Controllers.MessageController.DeleteForMe(int, int)g
+MarkDelivered(int, int)LConnectHub.Message.API.Controllers.MessageController.MarkDelivered(int, int)c
+MarkAllDelivered(int)JConnectHub.Message.API.Controllers.MessageController.MarkAllDelivered(int)_
+Search(int, string)HConnectHub.Message.API.Controllers.MessageController.Search(int, string)g
+SearchRoom(int, string)LConnectHub.Message.API.Controllers.MessageController.SearchRoom(int, string)O
+Recent(int)@ConnectHub.Message.API.Controllers.MessageController.Recent(int)ì
+*ConnectHub.Message.API.DTOs.EditMessageDtoobjectO
+EditMessageDto();ConnectHub.Message.API.DTOs.EditMessageDto.EditMessageDto()E
+Content.get6ConnectHub.Message.API.DTOs.EditMessageDto.Content.getE
+Content.set6ConnectHub.Message.API.DTOs.EditMessageDto.Content.set±
++ConnectHub.Message.API.DTOs.MessageQueryDtoobjectR
+MessageQueryDto()=ConnectHub.Message.API.DTOs.MessageQueryDto.MessageQueryDto()@
+Page.get4ConnectHub.Message.API.DTOs.MessageQueryDto.Page.get@
+Page.set4ConnectHub.Message.API.DTOs.MessageQueryDto.Page.setH
+PageSize.get8ConnectHub.Message.API.DTOs.MessageQueryDto.PageSize.getH
+PageSize.set8ConnectHub.Message.API.DTOs.MessageQueryDto.PageSize.setF
+Keyword.get7ConnectHub.Message.API.DTOs.MessageQueryDto.Keyword.getF
+Keyword.set7ConnectHub.Message.API.DTOs.MessageQueryDto.Keyword.setÂ
+.ConnectHub.Message.API.DTOs.MessageResponseDtoobject[
+MessageResponseDto()CConnectHub.Message.API.DTOs.MessageResponseDto.MessageResponseDto()M
+MessageId.get<ConnectHub.Message.API.DTOs.MessageResponseDto.MessageId.getM
+MessageId.set<ConnectHub.Message.API.DTOs.MessageResponseDto.MessageId.setK
+SenderId.get;ConnectHub.Message.API.DTOs.MessageResponseDto.SenderId.getK
+SenderId.set;ConnectHub.Message.API.DTOs.MessageResponseDto.SenderId.setO
+ReceiverId.get=ConnectHub.Message.API.DTOs.MessageResponseDto.ReceiverId.getO
+ReceiverId.set=ConnectHub.Message.API.DTOs.MessageResponseDto.ReceiverId.setG
+
+RoomId.get9ConnectHub.Message.API.DTOs.MessageResponseDto.RoomId.getG
+
+RoomId.set9ConnectHub.Message.API.DTOs.MessageResponseDto.RoomId.setI
+Content.get:ConnectHub.Message.API.DTOs.MessageResponseDto.Content.getI
+Content.set:ConnectHub.Message.API.DTOs.MessageResponseDto.Content.setQ
+MessageType.get>ConnectHub.Message.API.DTOs.MessageResponseDto.MessageType.getQ
+MessageType.set>ConnectHub.Message.API.DTOs.MessageResponseDto.MessageType.setG
+
+IsRead.get9ConnectHub.Message.API.DTOs.MessageResponseDto.IsRead.getG
+
+IsRead.set9ConnectHub.Message.API.DTOs.MessageResponseDto.IsRead.setQ
+IsDelivered.get>ConnectHub.Message.API.DTOs.MessageResponseDto.IsDelivered.getQ
+IsDelivered.set>ConnectHub.Message.API.DTOs.MessageResponseDto.IsDelivered.setK
+IsEdited.get;ConnectHub.Message.API.DTOs.MessageResponseDto.IsEdited.getK
+IsEdited.set;ConnectHub.Message.API.DTOs.MessageResponseDto.IsEdited.setG
+
+SentAt.get9ConnectHub.Message.API.DTOs.MessageResponseDto.SentAt.getG
+
+SentAt.set9ConnectHub.Message.API.DTOs.MessageResponseDto.SentAt.setQ
+DeliveredAt.get>ConnectHub.Message.API.DTOs.MessageResponseDto.DeliveredAt.getQ
+DeliveredAt.set>ConnectHub.Message.API.DTOs.MessageResponseDto.DeliveredAt.setG
+
+ReadAt.get9ConnectHub.Message.API.DTOs.MessageResponseDto.ReadAt.getG
+
+ReadAt.set9ConnectHub.Message.API.DTOs.MessageResponseDto.ReadAt.setK
+EditedAt.get;ConnectHub.Message.API.DTOs.MessageResponseDto.EditedAt.getK
+EditedAt.set;ConnectHub.Message.API.DTOs.MessageResponseDto.EditedAt.setK
+MediaUrl.get;ConnectHub.Message.API.DTOs.MessageResponseDto.MediaUrl.getK
+MediaUrl.set;ConnectHub.Message.API.DTOs.MessageResponseDto.MediaUrl.set[
+ReplyToMessageId.getCConnectHub.Message.API.DTOs.MessageResponseDto.ReplyToMessageId.get[
+ReplyToMessageId.setCConnectHub.Message.API.DTOs.MessageResponseDto.ReplyToMessageId.setM
+IsDeleted.get<ConnectHub.Message.API.DTOs.MessageResponseDto.IsDeleted.getM
+IsDeleted.set<ConnectHub.Message.API.DTOs.MessageResponseDto.IsDeleted.set´	
+*ConnectHub.Message.API.DTOs.SendMessageDtoobjectO
+SendMessageDto();ConnectHub.Message.API.DTOs.SendMessageDto.SendMessageDto()G
+SenderId.get7ConnectHub.Message.API.DTOs.SendMessageDto.SenderId.getG
+SenderId.set7ConnectHub.Message.API.DTOs.SendMessageDto.SenderId.setK
+ReceiverId.get9ConnectHub.Message.API.DTOs.SendMessageDto.ReceiverId.getK
+ReceiverId.set9ConnectHub.Message.API.DTOs.SendMessageDto.ReceiverId.setC
+
+RoomId.get5ConnectHub.Message.API.DTOs.SendMessageDto.RoomId.getC
+
+RoomId.set5ConnectHub.Message.API.DTOs.SendMessageDto.RoomId.setE
+Content.get6ConnectHub.Message.API.DTOs.SendMessageDto.Content.getE
+Content.set6ConnectHub.Message.API.DTOs.SendMessageDto.Content.setM
+MessageType.get:ConnectHub.Message.API.DTOs.SendMessageDto.MessageType.getM
+MessageType.set:ConnectHub.Message.API.DTOs.SendMessageDto.MessageType.setG
+MediaUrl.get7ConnectHub.Message.API.DTOs.SendMessageDto.MediaUrl.getG
+MediaUrl.set7ConnectHub.Message.API.DTOs.SendMessageDto.MediaUrl.setW
+ReplyToMessageId.get?ConnectHub.Message.API.DTOs.SendMessageDto.ReplyToMessageId.getW
+ReplyToMessageId.set?ConnectHub.Message.API.DTOs.SendMessageDto.ReplyToMessageId.set‰
+1ConnectHub.Message.API.Migrations.InitialPostgres2Microsoft.EntityFrameworkCore.Migrations.Migrationobject∞
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)oConnectHub.Message.API.Migrations.InitialPostgres.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)¥
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)qConnectHub.Message.API.Migrations.InitialPostgres.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)Æ
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)nConnectHub.Message.API.Migrations.InitialPostgres.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)X
+InitialPostgres()CConnectHub.Message.API.Migrations.InitialPostgres.InitialPostgres()Ω
+?ConnectHub.Message.API.Migrations.MessageDbContextModelSnapshot:Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshotobject∞
+6BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)vConnectHub.Message.API.Migrations.MessageDbContextModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)Ç
+MessageDbContextModelSnapshot()_ConnectHub.Message.API.Migrations.MessageDbContextModelSnapshot.MessageDbContextModelSnapshot()≠
++ConnectHub.Message.API.Models.MessageEntityobjectN
+MessageEntity();ConnectHub.Message.API.Models.MessageEntity.MessageEntity()J
+MessageId.get9ConnectHub.Message.API.Models.MessageEntity.MessageId.getJ
+MessageId.set9ConnectHub.Message.API.Models.MessageEntity.MessageId.setH
+SenderId.get8ConnectHub.Message.API.Models.MessageEntity.SenderId.getH
+SenderId.set8ConnectHub.Message.API.Models.MessageEntity.SenderId.setL
+ReceiverId.get:ConnectHub.Message.API.Models.MessageEntity.ReceiverId.getL
+ReceiverId.set:ConnectHub.Message.API.Models.MessageEntity.ReceiverId.setD
+
+RoomId.get6ConnectHub.Message.API.Models.MessageEntity.RoomId.getD
+
+RoomId.set6ConnectHub.Message.API.Models.MessageEntity.RoomId.setF
+Content.get7ConnectHub.Message.API.Models.MessageEntity.Content.getF
+Content.set7ConnectHub.Message.API.Models.MessageEntity.Content.setN
+MessageType.get;ConnectHub.Message.API.Models.MessageEntity.MessageType.getN
+MessageType.set;ConnectHub.Message.API.Models.MessageEntity.MessageType.setD
+
+IsRead.get6ConnectHub.Message.API.Models.MessageEntity.IsRead.getD
+
+IsRead.set6ConnectHub.Message.API.Models.MessageEntity.IsRead.setJ
+IsDeleted.get9ConnectHub.Message.API.Models.MessageEntity.IsDeleted.getJ
+IsDeleted.set9ConnectHub.Message.API.Models.MessageEntity.IsDeleted.setH
+IsEdited.get8ConnectHub.Message.API.Models.MessageEntity.IsEdited.getH
+IsEdited.set8ConnectHub.Message.API.Models.MessageEntity.IsEdited.setN
+IsDelivered.get;ConnectHub.Message.API.Models.MessageEntity.IsDelivered.getN
+IsDelivered.set;ConnectHub.Message.API.Models.MessageEntity.IsDelivered.setD
+
+SentAt.get6ConnectHub.Message.API.Models.MessageEntity.SentAt.getD
+
+SentAt.set6ConnectHub.Message.API.Models.MessageEntity.SentAt.setN
+DeliveredAt.get;ConnectHub.Message.API.Models.MessageEntity.DeliveredAt.getN
+DeliveredAt.set;ConnectHub.Message.API.Models.MessageEntity.DeliveredAt.setD
+
+ReadAt.get6ConnectHub.Message.API.Models.MessageEntity.ReadAt.getD
+
+ReadAt.set6ConnectHub.Message.API.Models.MessageEntity.ReadAt.setH
+EditedAt.get8ConnectHub.Message.API.Models.MessageEntity.EditedAt.getH
+EditedAt.set8ConnectHub.Message.API.Models.MessageEntity.EditedAt.setH
+MediaUrl.get8ConnectHub.Message.API.Models.MessageEntity.MediaUrl.getH
+MediaUrl.set8ConnectHub.Message.API.Models.MessageEntity.MediaUrl.setX
+ReplyToMessageId.get@ConnectHub.Message.API.Models.MessageEntity.ReplyToMessageId.getX
+ReplyToMessageId.set@ConnectHub.Message.API.Models.MessageEntity.ReplyToMessageId.setZ
+DeletedForUserIds.getAConnectHub.Message.API.Models.MessageEntity.DeletedForUserIds.getZ
+DeletedForUserIds.setAConnectHub.Message.API.Models.MessageEntity.DeletedForUserIds.setü
+*ConnectHub.Message.API.Services.AuthClientobject+ConnectHub.Message.API.Services.IAuthClientÅ
+®AuthClient(System.Net.Http.HttpClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Logging.ILogger<ConnectHub.Message.API.Services.AuthClient>)”ConnectHub.Message.API.Services.AuthClient.AuthClient(System.Net.Http.HttpClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Logging.ILogger<ConnectHub.Message.API.Services.AuthClient>)∑
+DGetUserIdByUserNameAsync(string, System.Threading.CancellationToken)oConnectHub.Message.API.Services.AuthClient.GetUserIdByUserNameAsync(string, System.Threading.CancellationToken)8
+6ConnectHub.Message.API.Repositories.IMessageRepositoryπ
+.ConnectHub.Message.API.Services.UserProfileDtoobjectS
+UserProfileDto()?ConnectHub.Message.API.Services.UserProfileDto.UserProfileDto()G
+
+UserId.get9ConnectHub.Message.API.Services.UserProfileDto.UserId.getG
+
+UserId.set9ConnectHub.Message.API.Services.UserProfileDto.UserId.setK
+UserName.get;ConnectHub.Message.API.Services.UserProfileDto.UserName.getK
+UserName.set;ConnectHub.Message.API.Services.UserProfileDto.UserName.set-
++ConnectHub.Message.API.Services.IAuthClientì
+5ConnectHub.Message.API.Repositories.MessageRepositoryobject6ConnectHub.Message.API.Repositories.IMessageRepository∏
+?MessageRepository(ConnectHub.Message.API.Data.MessageDbContext)uConnectHub.Message.API.Repositories.MessageRepository.MessageRepository(ConnectHub.Message.API.Data.MessageDbContext)^
+FindByIdAsync(int)HConnectHub.Message.API.Repositories.MessageRepository.FindByIdAsync(int)ê
++FindDirectMessagesAsync(int, int, int, int)aConnectHub.Message.API.Repositories.MessageRepository.FindDirectMessagesAsync(int, int, int, int)~
+"CountDirectMessagesAsync(int, int)XConnectHub.Message.API.Repositories.MessageRepository.CountDirectMessagesAsync(int, int)Ç
+$FindRoomMessagesAsync(int, int, int)ZConnectHub.Message.API.Repositories.MessageRepository.FindRoomMessagesAsync(int, int, int)p
+CountRoomMessagesAsync(int)QConnectHub.Message.API.Repositories.MessageRepository.CountRoomMessagesAsync(int)z
+ FindUnreadByReceiverIdAsync(int)VConnectHub.Message.API.Repositories.MessageRepository.FindUnreadByReceiverIdAsync(int)d
+CountUnreadAsync(int)KConnectHub.Message.API.Repositories.MessageRepository.CountUnreadAsync(int)z
+ SearchMessagesAsync(int, string)VConnectHub.Message.API.Repositories.MessageRepository.SearchMessagesAsync(int, string)Ç
+$SearchRoomMessagesAsync(int, string)ZConnectHub.Message.API.Repositories.MessageRepository.SearchRoomMessagesAsync(int, string)v
+CountUnreadFromAsync(int, int)TConnectHub.Message.API.Repositories.MessageRepository.CountUnreadFromAsync(int, int)v
+FindLatestPerPartnerAsync(int)TConnectHub.Message.API.Repositories.MessageRepository.FindLatestPerPartnerAsync(int)™
+8CreateAsync(ConnectHub.Message.API.Models.MessageEntity)nConnectHub.Message.API.Repositories.MessageRepository.CreateAsync(ConnectHub.Message.API.Models.MessageEntity)™
+8UpdateAsync(ConnectHub.Message.API.Models.MessageEntity)nConnectHub.Message.API.Repositories.MessageRepository.UpdateAsync(ConnectHub.Message.API.Models.MessageEntity)n
+MarkAllReadAsync(int, int)PConnectHub.Message.API.Repositories.MessageRepository.MarkAllReadAsync(int, int)Ü
+&MarkAllDeliveredForRecipientAsync(int)\ConnectHub.Message.API.Repositories.MessageRepository.MarkAllDeliveredForRecipientAsync(int)Ä
+#FindAllMessagesAdminAsync(int, int)YConnectHub.Message.API.Repositories.MessageRepository.FindAllMessagesAdminAsync(int, int)h
+CountAllMessagesAsync()MConnectHub.Message.API.Repositories.MessageRepository.CountAllMessagesAsync()b
+HardDeleteAsync(int)JConnectHub.Message.API.Repositories.MessageRepository.HardDeleteAsync(int)1
+/ConnectHub.Message.API.Services.IMessageService5
+3ConnectHub.Message.API.Services.INotificationClient·
+.ConnectHub.Message.API.Services.MessageServiceobject/ConnectHub.Message.API.Services.IMessageServiceÖ
+®MessageService(ConnectHub.Message.API.Repositories.IMessageRepository, ConnectHub.Message.API.Services.INotificationClient, ConnectHub.Message.API.Services.IAuthClient)◊ConnectHub.Message.API.Services.MessageService.MessageService(ConnectHub.Message.API.Repositories.IMessageRepository, ConnectHub.Message.API.Services.INotificationClient, ConnectHub.Message.API.Services.IAuthClient)´
+<SendMessageAsync(ConnectHub.Message.API.DTOs.SendMessageDto)kConnectHub.Message.API.Services.MessageService.SendMessageAsync(ConnectHub.Message.API.DTOs.SendMessageDto)á
+*GetDirectMessagesAsync(int, int, int, int)YConnectHub.Message.API.Services.MessageService.GetDirectMessagesAsync(int, int, int, int)y
+#GetRoomMessagesAsync(int, int, int)RConnectHub.Message.API.Services.MessageService.GetRoomMessagesAsync(int, int, int)i
+GetUnreadMessagesAsync(int)JConnectHub.Message.API.Services.MessageService.GetUnreadMessagesAsync(int)c
+GetUnreadCountAsync(int)GConnectHub.Message.API.Services.MessageService.GetUnreadCountAsync(int)µ
+AEditMessageAsync(int, ConnectHub.Message.API.DTOs.EditMessageDto)pConnectHub.Message.API.Services.MessageService.EditMessageAsync(int, ConnectHub.Message.API.DTOs.EditMessageDto)a
+DeleteMessageAsync(int)FConnectHub.Message.API.Services.MessageService.DeleteMessageAsync(int)g
+DeleteForMeAsync(int, int)IConnectHub.Message.API.Services.MessageService.DeleteForMeAsync(int, int)k
+MarkDeliveredAsync(int, int)KConnectHub.Message.API.Services.MessageService.MarkDeliveredAsync(int, int)g
+MarkAllDeliveredAsync(int)IConnectHub.Message.API.Services.MessageService.MarkAllDeliveredAsync(int)g
+MarkAllReadAsync(int, int)IConnectHub.Message.API.Services.MessageService.MarkAllReadAsync(int, int)s
+ SearchMessagesAsync(int, string)OConnectHub.Message.API.Services.MessageService.SearchMessagesAsync(int, string){
+$SearchRoomMessagesAsync(int, string)SConnectHub.Message.API.Services.MessageService.SearchRoomMessagesAsync(int, string)s
+ GetRecentConversationsAsync(int)OConnectHub.Message.API.Services.MessageService.GetRecentConversationsAsync(int)w
+"GetAllMessagesAdminAsync(int, int)QConnectHub.Message.API.Services.MessageService.GetAllMessagesAdminAsync(int, int)k
+DeleteMessageAdminAsync(int)KConnectHub.Message.API.Services.MessageService.DeleteMessageAdminAsync(int)[
+CountMessagesAsync()CConnectHub.Message.API.Services.MessageService.CountMessagesAsync()û
+3ConnectHub.Message.API.Services.DeliveredMessageDtoobjectSystem.IEquatable<T>î
+.DeliveredMessageDto(int, int, System.DateTime)bConnectHub.Message.API.Services.DeliveredMessageDto.DeliveredMessageDto(int, int, System.DateTime)L
+
+ToString()>ConnectHub.Message.API.Services.DeliveredMessageDto.ToString()Ü
+'PrintMembers(System.Text.StringBuilder)[ConnectHub.Message.API.Services.DeliveredMessageDto.PrintMembers(System.Text.StringBuilder)R
+GetHashCode()AConnectHub.Message.API.Services.DeliveredMessageDto.GetHashCode()V
+Equals(object?)CConnectHub.Message.API.Services.DeliveredMessageDto.Equals(object?)∞
+<Equals(ConnectHub.Message.API.Services.DeliveredMessageDto?)pConnectHub.Message.API.Services.DeliveredMessageDto.Equals(ConnectHub.Message.API.Services.DeliveredMessageDto?)L
+
+<Clone>$()>ConnectHub.Message.API.Services.DeliveredMessageDto.<Clone>$()»
+HDeliveredMessageDto(ConnectHub.Message.API.Services.DeliveredMessageDto)|ConnectHub.Message.API.Services.DeliveredMessageDto.DeliveredMessageDto(ConnectHub.Message.API.Services.DeliveredMessageDto)ú
+2Deconstruct(out int, out int, out System.DateTime)fConnectHub.Message.API.Services.DeliveredMessageDto.Deconstruct(out int, out int, out System.DateTime)`
+EqualityContract.getHConnectHub.Message.API.Services.DeliveredMessageDto.EqualityContract.get`
+EqualityContract.setHConnectHub.Message.API.Services.DeliveredMessageDto.EqualityContract.setR
+MessageId.getAConnectHub.Message.API.Services.DeliveredMessageDto.MessageId.getT
+MessageId.initBConnectHub.Message.API.Services.DeliveredMessageDto.MessageId.initP
+SenderId.get@ConnectHub.Message.API.Services.DeliveredMessageDto.SenderId.getR
+SenderId.initAConnectHub.Message.API.Services.DeliveredMessageDto.SenderId.initV
+DeliveredAt.getCConnectHub.Message.API.Services.DeliveredMessageDto.DeliveredAt.getX
+DeliveredAt.initDConnectHub.Message.API.Services.DeliveredMessageDto.DeliveredAt.init»
+2ConnectHub.Message.API.Services.NotificationClientobject3ConnectHub.Message.API.Services.INotificationClient©
+∏NotificationClient(System.Net.Http.HttpClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Logging.ILogger<ConnectHub.Message.API.Services.NotificationClient>)ÎConnectHub.Message.API.Services.NotificationClient.NotificationClient(System.Net.Http.HttpClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Logging.ILogger<ConnectHub.Message.API.Services.NotificationClient>)®
+xSendAsync(int, int?, ConnectHub.Shared.Enums.NotificationType, string, string, int?, System.Threading.CancellationToken)´ConnectHub.Message.API.Services.NotificationClient.SendAsync(int, int?, ConnectHub.Shared.Enums.NotificationType, string, string, int?, System.Threading.CancellationToken)

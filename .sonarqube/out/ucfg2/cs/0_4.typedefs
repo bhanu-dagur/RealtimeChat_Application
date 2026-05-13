@@ -1,0 +1,6 @@
+1
+Programobject
+	Program()Program.Program()ä
+6ConnectHub.Gateway.Middleware.RequestLoggingMiddlewareobjectÿ
+¡RequestLoggingMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<ConnectHub.Gateway.Middleware.RequestLoggingMiddleware>)ØConnectHub.Gateway.Middleware.RequestLoggingMiddleware.RequestLoggingMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<ConnectHub.Gateway.Middleware.RequestLoggingMiddleware>)Ÿ
+2InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)iConnectHub.Gateway.Middleware.RequestLoggingMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)

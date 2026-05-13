@@ -1,0 +1,1 @@
+lR_D:\Projects\RealtimeChatApplication\ConnectHub\src\ConnectHub.Gateway\ConnectHub.Gateway.csprojòCSharp12

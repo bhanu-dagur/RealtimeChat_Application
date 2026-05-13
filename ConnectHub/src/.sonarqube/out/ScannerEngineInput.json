@@ -1,0 +1,536 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.2.1"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1778660620000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "ConnectHub"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src"
+    },
+    {
+      "key": "sonar.sources",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\global.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\start-all.ps1,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Shared\\ConnectHub.Shared\\obj\\ConnectHub.Shared.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Shared\\ConnectHub.Shared\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Shared\\ConnectHub.Shared\\bin\\Debug\\net8.0\\ConnectHub.Shared.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Shared\\ConnectHub.Shared\\bin\\Release\\net8.0\\ConnectHub.Shared.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Shared\\ConnectHub.Shared\\obj\\Release\\net8.0\\ConnectHub.Shared.sourcelink.json"
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4,CB13FDFC-02ED-46F2-9EA5-F22AEF61F052,CB41C039-90AD-4097-807B-D69805B90EAF,C2D5BB67-DD15-4184-A269-2F352B8968C3,68DAFF6B-D385-4501-B9FD-61755DDCC816,A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23,6F99AB8B-E882-482E-9871-38DFC52A25E9,B3B9378D-534C-45C4-8F70-F06C43ECEB3B,72C4EB55-2FDF-42E3-B158-48191039E08C,ABCE0E36-E829-4AE9-835F-AEC6CDD604DE,C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC,619D2140-B57A-4499-8691-B2FDEA149CEB"
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.projectKey",
+      "value": "ConnectHub:C68FE303-66D0-43C5-8F81-B07D44C8C6A4"
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.projectName",
+      "value": "ConnectHub.Gateway"
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway"
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.sources",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\Middleware.cs\\RequestLoggingMiddleware.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\Program.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\obj\\Debug\\net8.0\\ConnectHub.Gateway.GlobalUsings.g.cs,\"D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs\",D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\obj\\Debug\\net8.0\\ConnectHub.Gateway.AssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\Dockerfile,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\Properties\\launchSettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\obj\\ConnectHub.Gateway.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\bin\\Debug\\net8.0\\ConnectHub.Gateway.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\bin\\Debug\\net8.0\\ConnectHub.Gateway.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\bin\\Release\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\bin\\Release\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\bin\\Release\\net8.0\\ConnectHub.Gateway.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\bin\\Release\\net8.0\\ConnectHub.Gateway.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\obj\\Debug\\net8.0\\project.razor.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\obj\\Debug\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\obj\\Release\\net8.0\\ConnectHub.Gateway.sourcelink.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\ConnectHub.Gateway\\obj\\Release\\net8.0\\staticwebassets.build.json"
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "C68FE303-66D0-43C5-8F81-B07D44C8C6A4.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.projectKey",
+      "value": "ConnectHub:CB13FDFC-02ED-46F2-9EA5-F22AEF61F052"
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.projectName",
+      "value": "ConnectHub.Notification.API.Tests"
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests"
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod1"
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.tests",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\obj\\ConnectHub.Notification.API.Tests.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Notification.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Notification.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Notification.API.Tests.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Notification.API.Tests.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\Services\\NotificationServiceTests.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\UnitTest1.cs"
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\10"
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\10\\Issues.json"
+    },
+    {
+      "key": "CB13FDFC-02ED-46F2-9EA5-F22AEF61F052.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\10\\Telemetry.json"
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.projectKey",
+      "value": "ConnectHub:CB41C039-90AD-4097-807B-D69805B90EAF"
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.projectName",
+      "value": "ConnectHub.Message.API.Tests"
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests"
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod2"
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.tests",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\obj\\ConnectHub.Message.API.Tests.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Message.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Message.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Message.API.Tests.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Message.API.Tests.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\Services\\MessageServiceTests.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Message.API.Tests\\UnitTest1.cs"
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\11"
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\11\\Issues.json"
+    },
+    {
+      "key": "CB41C039-90AD-4097-807B-D69805B90EAF.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\11\\Telemetry.json"
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.projectKey",
+      "value": "ConnectHub:C2D5BB67-DD15-4184-A269-2F352B8968C3"
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.projectName",
+      "value": "ConnectHub.Auth.API.Tests"
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests"
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod3"
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.tests",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\obj\\ConnectHub.Auth.API.Tests.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Auth.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Auth.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Auth.API.Tests.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Auth.API.Tests.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\Services\\UserServiceTests.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Auth.API.Tests\\UnitTest1.cs"
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\12"
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\12\\Issues.json"
+    },
+    {
+      "key": "C2D5BB67-DD15-4184-A269-2F352B8968C3.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\12\\Telemetry.json"
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.projectKey",
+      "value": "ConnectHub:68DAFF6B-D385-4501-B9FD-61755DDCC816"
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.projectName",
+      "value": "ConnectHub.Hub.API"
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API"
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod4"
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.sources",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Dockerfile,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\obj\\ConnectHub.Hub.API.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Properties\\launchSettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\bin\\Debug\\net8.0\\ConnectHub.Hub.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\bin\\Debug\\net8.0\\ConnectHub.Hub.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\obj\\Debug\\net8.0\\project.razor.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\obj\\Debug\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Controllers\\PresenceController.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Hubs\\ChatHub.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Hubs\\UserIdProvider.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Models\\ChatMessage.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Models\\UserConnection.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Program.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Services\\IPresenceService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Services\\IUserStatusService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Services\\PresenceService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\Services\\UserStatusService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\obj\\Debug\\net8.0\\ConnectHub.Hub.API.GlobalUsings.g.cs,\"D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs\",D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\obj\\Debug\\net8.0\\ConnectHub.Hub.API.AssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\obj\\Debug\\net8.0\\ConnectHub.Hub.API.MvcApplicationPartsAssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Hub.API\\ConnectHub.Hub.API.http"
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\2"
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\2\\Issues.json"
+    },
+    {
+      "key": "68DAFF6B-D385-4501-B9FD-61755DDCC816.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\2\\Telemetry.json"
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.projectKey",
+      "value": "ConnectHub:A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23"
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.projectName",
+      "value": "ConnectHub.Room.API"
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API"
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod5"
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.sources",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Dockerfile,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\obj\\ConnectHub.Room.API.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Properties\\launchSettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\bin\\Debug\\net8.0\\ConnectHub.Room.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\bin\\Debug\\net8.0\\ConnectHub.Room.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\obj\\Debug\\net8.0\\project.razor.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\obj\\Debug\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Controllers\\AdminRoomController.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Controllers\\ChatRoomController.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Data\\RoomDbContext.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\DTOs\\AddMemerDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\DTOs\\ChatRoomResponseDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\DTOs\\CreateRoomDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\DTOs\\RoomMemberDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\DTOs\\UpdateMemberRoleDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\DTOs\\UpdateRoomDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Migrations\\20260501085842_InitialPostgres.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Migrations\\20260501085842_InitialPostgres.Designer.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Migrations\\RoomDbContextModelSnapshot.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Models\\ChatRoom.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Models\\RoomMember.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Program.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Repositories\\ChatRoomRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Repositories\\IChatRoomRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Services\\ChatRoomService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Services\\IChatRoomService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Services\\INotificationClient.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\Services\\NotificationClient.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\obj\\Debug\\net8.0\\ConnectHub.Room.API.GlobalUsings.g.cs,\"D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs\",D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\obj\\Debug\\net8.0\\ConnectHub.Room.API.AssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\obj\\Debug\\net8.0\\ConnectHub.Room.API.MvcApplicationPartsAssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Room.API\\ConnectHub.Room.API.http"
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\3"
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\3\\Issues.json"
+    },
+    {
+      "key": "A7CFBBF3-DA42-4B30-8349-2C5BDD0BFC23.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\3\\Telemetry.json"
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.projectKey",
+      "value": "ConnectHub:6F99AB8B-E882-482E-9871-38DFC52A25E9"
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.projectName",
+      "value": "ConnectHub.Auth.API"
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API"
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod6"
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.sources",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Dockerfile,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\ConnectHub.Auth.API.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Properties\\launchSettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\bin\\Debug\\net8.0\\ConnectHub.Auth.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\bin\\Debug\\net8.0\\ConnectHub.Auth.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\bin\\Release\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\bin\\Release\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\bin\\Release\\net8.0\\ConnectHub.Auth.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\bin\\Release\\net8.0\\ConnectHub.Auth.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\Debug\\net8.0\\project.razor.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\Debug\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\Release\\net8.0\\ConnectHub.Auth.API.sourcelink.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\Release\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Controllers\\AdminController.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Controllers\\UserControllers.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Data\\AuthDbContext.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\DTOs\\AuthResponseDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\DTOs\\ChangePasswordDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\DTOs\\GoogleLoginDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\DTOs\\LoginDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\DTOs\\RegisterDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\DTOs\\UpdateOnlineStatusDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\DTOs\\UpdateProfileDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\DTOs\\UserProfileDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Migrations\\20260501085652_InitialPostgres.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Migrations\\20260501085652_InitialPostgres.Designer.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Migrations\\20260508205414_AddSystemAdminRole.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Migrations\\20260508205414_AddSystemAdminRole.Designer.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Migrations\\AuthDbContextModelSnapshot.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Models\\User.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Program.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Repositories\\IUserRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Repositories\\UserRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Services\\IUserService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\Services\\UserService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\Debug\\net8.0\\ConnectHub.Auth.API.GlobalUsings.g.cs,\"D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs\",D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\Debug\\net8.0\\ConnectHub.Auth.API.AssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\obj\\Debug\\net8.0\\ConnectHub.Auth.API.MvcApplicationPartsAssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Auth.API\\ConnectHub.Auth.API.http"
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\4"
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\4\\Issues.json"
+    },
+    {
+      "key": "6F99AB8B-E882-482E-9871-38DFC52A25E9.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\4\\Telemetry.json"
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.projectKey",
+      "value": "ConnectHub:B3B9378D-534C-45C4-8F70-F06C43ECEB3B"
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.projectName",
+      "value": "ConnectHub.Media.API"
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API"
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod7"
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.sources",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Dockerfile,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\obj\\ConnectHub.Media.API.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Properties\\launchSettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\bin\\Debug\\net8.0\\ConnectHub.Media.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\bin\\Debug\\net8.0\\ConnectHub.Media.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\obj\\Debug\\net8.0\\project.razor.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\obj\\Debug\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\BackgroundServices\\MediaCleanupService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Controllers\\MediaController.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Data\\MediaDbContext.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\DTOs\\MediaFileResponseDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\DTOs\\MediaStatsDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\DTOs\\UpdateResponseDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Migrations\\20260502030038_InitialPostgres.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Migrations\\20260502030038_InitialPostgres.Designer.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Migrations\\MediaDbContextModelSnapshot.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Models\\MediaFile.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Options\\CloudinaryOptions.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Program.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Repositories\\IMediaRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Repositories\\MediaRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Services\\CloudinaryService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Services\\ICloudinaryService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Services\\IMediaService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\Services\\MediaService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\obj\\Debug\\net8.0\\ConnectHub.Media.API.GlobalUsings.g.cs,\"D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs\",D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\obj\\Debug\\net8.0\\ConnectHub.Media.API.AssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\obj\\Debug\\net8.0\\ConnectHub.Media.API.MvcApplicationPartsAssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Media.API\\ConnectHub.Media.API.http"
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\5"
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\5\\Issues.json"
+    },
+    {
+      "key": "B3B9378D-534C-45C4-8F70-F06C43ECEB3B.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\5\\Telemetry.json"
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.projectKey",
+      "value": "ConnectHub:72C4EB55-2FDF-42E3-B158-48191039E08C"
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.projectName",
+      "value": "ConnectHub.Hub.API.Tests"
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests"
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod8"
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.tests",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\obj\\ConnectHub.Hub.API.Tests.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Hub.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Hub.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Hub.API.Tests.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Hub.API.Tests.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\Hubs\\ChatHubTests.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\Services\\PresenceServiceTests.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Hub.API.Tests\\UnitTest1.cs"
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\6"
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\6\\Issues.json"
+    },
+    {
+      "key": "72C4EB55-2FDF-42E3-B158-48191039E08C.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\6\\Telemetry.json"
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.projectKey",
+      "value": "ConnectHub:ABCE0E36-E829-4AE9-835F-AEC6CDD604DE"
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.projectName",
+      "value": "ConnectHub.Notification.API"
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API"
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod9"
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.sources",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Dockerfile,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\obj\\ConnectHub.Notification.API.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Properties\\launchSettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\bin\\Debug\\net8.0\\ConnectHub.Notification.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\bin\\Debug\\net8.0\\ConnectHub.Notification.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\bin\\Release\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\bin\\Release\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\bin\\Release\\net8.0\\ConnectHub.Notification.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\bin\\Release\\net8.0\\ConnectHub.Notification.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\obj\\Debug\\net8.0\\project.razor.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\obj\\Debug\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\obj\\Release\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Controllers\\NotificationController.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Data\\NotificationDbContext.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\DTOs\\BroadcastNotificationDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\DTOs\\EmailNotificationDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\DTOs\\NotificationResponseDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\DTOs\\SendNotificationDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Hubs\\NotificationHub.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Hubs\\UserIdProvider.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Migrations\\20260501085938_InitialPostgres.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Migrations\\20260501085938_InitialPostgres.Designer.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Migrations\\NotificationDbContextModelSnapshot.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Models\\NotificationEntity.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Program.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Repositories\\INotificationRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Repositories\\NotificationRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Services\\EmailService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Services\\IEmailService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Services\\INotificationService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\Services\\NotificationService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\obj\\Debug\\net8.0\\ConnectHub.Notification.API.GlobalUsings.g.cs,\"D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs\",D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\obj\\Debug\\net8.0\\ConnectHub.Notification.API.AssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\obj\\Debug\\net8.0\\ConnectHub.Notification.API.MvcApplicationPartsAssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Notification.API\\ConnectHub.Notification.API.http"
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\7"
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\7\\Issues.json"
+    },
+    {
+      "key": "ABCE0E36-E829-4AE9-835F-AEC6CDD604DE.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\7\\Telemetry.json"
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.projectKey",
+      "value": "ConnectHub:C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC"
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.projectName",
+      "value": "ConnectHub.Message.API"
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API"
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod10"
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.sources",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Dockerfile,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\obj\\ConnectHub.Message.API.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Properties\\launchSettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\bin\\Debug\\net8.0\\ConnectHub.Message.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\bin\\Debug\\net8.0\\ConnectHub.Message.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\bin\\Release\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\bin\\Release\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\bin\\Release\\net8.0\\ConnectHub.Message.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\bin\\Release\\net8.0\\ConnectHub.Message.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\obj\\Debug\\net8.0\\project.razor.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\obj\\Debug\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\obj\\Release\\net8.0\\staticwebassets.build.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Controllers\\AdminMessageController.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Controllers\\MessageController.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Data\\MessageDbContext.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\DTOs\\ConversationSummaryDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\DTOs\\EditMessageDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\DTOs\\MessageQueryDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\DTOs\\MessageResponseDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\DTOs\\SendMessageDto.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Migrations\\20260501085737_InitialPostgres.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Migrations\\20260501085737_InitialPostgres.Designer.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Migrations\\MessageDbContextModelSnapshot.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Models\\MessageEntity.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Program.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Repositories\\IMessageRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Repositories\\MessageRepository.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Services\\AuthClient.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Services\\IAuthClient.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Services\\IMessageService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Services\\INotificationClient.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Services\\MessageService.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\Services\\NotificationClient.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\obj\\Debug\\net8.0\\ConnectHub.Message.API.GlobalUsings.g.cs,\"D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs\",D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\obj\\Debug\\net8.0\\ConnectHub.Message.API.AssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\obj\\Debug\\net8.0\\ConnectHub.Message.API.MvcApplicationPartsAssemblyInfo.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\Services\\ConnectHub.Message.API\\ConnectHub.Message.API.http"
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\8"
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\8\\Issues.json"
+    },
+    {
+      "key": "C8174B6C-9BC1-4862-9627-A5CB5FEFC1FC.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\8\\Telemetry.json"
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.projectKey",
+      "value": "ConnectHub:619D2140-B57A-4499-8691-B2FDEA149CEB"
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.projectName",
+      "value": "ConnectHub.Room.API.Tests"
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.projectBaseDir",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests"
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.working.directory",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\.sonar\\mod11"
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.tests",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\obj\\ConnectHub.Room.API.Tests.csproj.nuget.dgspec.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\obj\\project.assets.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\bin\\Debug\\net8.0\\appsettings.Development.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\bin\\Debug\\net8.0\\appsettings.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Room.API.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Room.API.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Room.API.Tests.deps.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\bin\\Debug\\net8.0\\ConnectHub.Room.API.Tests.runtimeconfig.json,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\Services\\ChatRoomServiceTests.cs,D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Room.API.Tests\\UnitTest1.cs"
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\9"
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\9\\Issues.json"
+    },
+    {
+      "key": "619D2140-B57A-4499-8691-B2FDEA149CEB.sonar.cs.scanner.telemetry",
+      "value": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\src\\.sonarqube\\out\\9\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

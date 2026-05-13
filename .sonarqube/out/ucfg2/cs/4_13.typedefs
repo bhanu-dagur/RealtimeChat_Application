@@ -1,0 +1,191 @@
+Ù
+/ConnectHub.Auth.API.Controllers.AdminController'Microsoft.AspNetCore.Mvc.ControllerBaseobject¨
+:AdminController(ConnectHub.Auth.API.Services.IUserService)jConnectHub.Auth.API.Controllers.AdminController.AdminController(ConnectHub.Auth.API.Services.IUserService)N
+GetAllUsers()=ConnectHub.Auth.API.Controllers.AdminController.GetAllUsers()T
+SuspendUser(int)@ConnectHub.Auth.API.Controllers.AdminController.SuspendUser(int)R
+DeleteUser(int)?ConnectHub.Auth.API.Controllers.AdminController.DeleteUser(int)P
+GetUserCount()>ConnectHub.Auth.API.Controllers.AdminController.GetUserCount()1
+Programobject
+	Program()Program.Program()ô
+&ConnectHub.Auth.API.Data.AuthDbContext'Microsoft.EntityFrameworkCore.DbContextobjectö
+eAuthDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<ConnectHub.Auth.API.Data.AuthDbContext>)ŒConnectHub.Auth.API.Data.AuthDbContext.AuthDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<ConnectHub.Auth.API.Data.AuthDbContext>)¡
+;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)bConnectHub.Auth.API.Data.AuthDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)=
+	Users.get0ConnectHub.Auth.API.Data.AuthDbContext.Users.get=
+	Users.set0ConnectHub.Auth.API.Data.AuthDbContext.Users.set‚
+.ConnectHub.Auth.API.Controllers.UserController'Microsoft.AspNetCore.Mvc.ControllerBaseobject¥
+9UserController(ConnectHub.Auth.API.Services.IUserService)hConnectHub.Auth.API.Controllers.UserController.UserController(ConnectHub.Auth.API.Services.IUserService)
+.Register(ConnectHub.Auth.API.DTOs.RegisterDto)]ConnectHub.Auth.API.Controllers.UserController.Register(ConnectHub.Auth.API.DTOs.RegisterDto)ƒ
+(Login(ConnectHub.Auth.API.DTOs.LoginDto)WConnectHub.Auth.API.Controllers.UserController.Login(ConnectHub.Auth.API.DTOs.LoginDto)›
+4GoogleLogin(ConnectHub.Auth.API.DTOs.GoogleLoginDto)cConnectHub.Auth.API.Controllers.UserController.GoogleLogin(ConnectHub.Auth.API.DTOs.GoogleLoginDto)K
+GetById(int);ConnectHub.Auth.API.Controllers.UserController.GetById(int)O
+Search(string)=ConnectHub.Auth.API.Controllers.UserController.Search(string)I
+GetActive():ConnectHub.Auth.API.Controllers.UserController.GetActive()­
+=UpdateProfile(int, ConnectHub.Auth.API.DTOs.UpdateProfileDto)lConnectHub.Auth.API.Controllers.UserController.UpdateProfile(int, ConnectHub.Auth.API.DTOs.UpdateProfileDto)±
+?ChangePassword(int, ConnectHub.Auth.API.DTOs.ChangePasswordDto)nConnectHub.Auth.API.Controllers.UserController.ChangePassword(int, ConnectHub.Auth.API.DTOs.ChangePasswordDto)Q
+Deactivate(int)>ConnectHub.Auth.API.Controllers.UserController.Deactivate(int)Á
+GUpdateOnlineStatus(int, ConnectHub.Auth.API.DTOs.UpdateOnlineStatusDto)vConnectHub.Auth.API.Controllers.UserController.UpdateOnlineStatus(int, ConnectHub.Auth.API.DTOs.UpdateOnlineStatusDto)]
+GetByUserName(string)DConnectHub.Auth.API.Controllers.UserController.GetByUserName(string)á
+(ConnectHub.Auth.API.DTOs.AuthResponseDtoobjectO
+AuthResponseDto():ConnectHub.Auth.API.DTOs.AuthResponseDto.AuthResponseDto()A
+
+UserId.get3ConnectHub.Auth.API.DTOs.AuthResponseDto.UserId.getA
+
+UserId.set3ConnectHub.Auth.API.DTOs.AuthResponseDto.UserId.setE
+UserName.get5ConnectHub.Auth.API.DTOs.AuthResponseDto.UserName.getE
+UserName.set5ConnectHub.Auth.API.DTOs.AuthResponseDto.UserName.setK
+DisplayName.get8ConnectHub.Auth.API.DTOs.AuthResponseDto.DisplayName.getK
+DisplayName.set8ConnectHub.Auth.API.DTOs.AuthResponseDto.DisplayName.set?
+	Email.get2ConnectHub.Auth.API.DTOs.AuthResponseDto.Email.get?
+	Email.set2ConnectHub.Auth.API.DTOs.AuthResponseDto.Email.setG
+AvatarUrl.get6ConnectHub.Auth.API.DTOs.AuthResponseDto.AvatarUrl.getG
+AvatarUrl.set6ConnectHub.Auth.API.DTOs.AuthResponseDto.AvatarUrl.set?
+	Token.get2ConnectHub.Auth.API.DTOs.AuthResponseDto.Token.get?
+	Token.set2ConnectHub.Auth.API.DTOs.AuthResponseDto.Token.setK
+TokenExpiry.get8ConnectHub.Auth.API.DTOs.AuthResponseDto.TokenExpiry.getK
+TokenExpiry.set8ConnectHub.Auth.API.DTOs.AuthResponseDto.TokenExpiry.set³
+ConnectHub.Auth.API.Models.Userobject0
+User()&ConnectHub.Auth.API.Models.User.User()8
+
+UserId.get*ConnectHub.Auth.API.Models.User.UserId.get8
+
+UserId.set*ConnectHub.Auth.API.Models.User.UserId.set<
+UserName.get,ConnectHub.Auth.API.Models.User.UserName.get<
+UserName.set,ConnectHub.Auth.API.Models.User.UserName.setB
+DisplayName.get/ConnectHub.Auth.API.Models.User.DisplayName.getB
+DisplayName.set/ConnectHub.Auth.API.Models.User.DisplayName.set6
+	Email.get)ConnectHub.Auth.API.Models.User.Email.get6
+	Email.set)ConnectHub.Auth.API.Models.User.Email.setD
+PasswordHash.get0ConnectHub.Auth.API.Models.User.PasswordHash.getD
+PasswordHash.set0ConnectHub.Auth.API.Models.User.PasswordHash.set>
+AvatarUrl.get-ConnectHub.Auth.API.Models.User.AvatarUrl.get>
+AvatarUrl.set-ConnectHub.Auth.API.Models.User.AvatarUrl.set2
+Bio.get'ConnectHub.Auth.API.Models.User.Bio.get2
+Bio.set'ConnectHub.Auth.API.Models.User.Bio.set<
+IsOnline.get,ConnectHub.Auth.API.Models.User.IsOnline.get<
+IsOnline.set,ConnectHub.Auth.API.Models.User.IsOnline.set<
+LastSeen.get,ConnectHub.Auth.API.Models.User.LastSeen.get<
+LastSeen.set,ConnectHub.Auth.API.Models.User.LastSeen.set>
+CreatedAt.get-ConnectHub.Auth.API.Models.User.CreatedAt.get>
+CreatedAt.set-ConnectHub.Auth.API.Models.User.CreatedAt.set<
+IsActive.get,ConnectHub.Auth.API.Models.User.IsActive.get<
+IsActive.set,ConnectHub.Auth.API.Models.User.IsActive.setF
+IsSystemAdmin.get1ConnectHub.Auth.API.Models.User.IsSystemAdmin.getF
+IsSystemAdmin.set1ConnectHub.Auth.API.Models.User.IsSystemAdmin.set<
+GoogleId.get,ConnectHub.Auth.API.Models.User.GoogleId.get<
+GoogleId.set,ConnectHub.Auth.API.Models.User.GoogleId.set<
+GitHubId.get,ConnectHub.Auth.API.Models.User.GitHubId.get<
+GitHubId.set,ConnectHub.Auth.API.Models.User.GitHubId.setÕ
+.ConnectHub.Auth.API.Migrations.InitialPostgres2Microsoft.EntityFrameworkCore.Migrations.Migrationobject­
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)lConnectHub.Auth.API.Migrations.InitialPostgres.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)±
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)nConnectHub.Auth.API.Migrations.InitialPostgres.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)«
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)kConnectHub.Auth.API.Migrations.InitialPostgres.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)U
+InitialPostgres()@ConnectHub.Auth.API.Migrations.InitialPostgres.InitialPostgres()ê
+1ConnectHub.Auth.API.Migrations.AddSystemAdminRole2Microsoft.EntityFrameworkCore.Migrations.Migrationobject°
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)oConnectHub.Auth.API.Migrations.AddSystemAdminRole.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)´
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)qConnectHub.Auth.API.Migrations.AddSystemAdminRole.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)®
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)nConnectHub.Auth.API.Migrations.AddSystemAdminRole.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)^
+AddSystemAdminRole()FConnectHub.Auth.API.Migrations.AddSystemAdminRole.AddSystemAdminRole()¤
+9ConnectHub.Auth.API.Migrations.AuthDbContextModelSnapshot:Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshotobjectª
+6BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)pConnectHub.Auth.API.Migrations.AuthDbContextModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)v
+AuthDbContextModelSnapshot()VConnectHub.Auth.API.Migrations.AuthDbContextModelSnapshot.AuthDbContextModelSnapshot()2
+0ConnectHub.Auth.API.Repositories.IUserRepository+
+)ConnectHub.Auth.API.Services.IUserService‡
+'ConnectHub.Auth.API.DTOs.GoogleLoginDtoobjectL
+GoogleLoginDto()8ConnectHub.Auth.API.DTOs.GoogleLoginDto.GoogleLoginDto()B
+IdToken.get3ConnectHub.Auth.API.DTOs.GoogleLoginDto.IdToken.getB
+IdToken.set3ConnectHub.Auth.API.DTOs.GoogleLoginDto.IdToken.setÛ
+!ConnectHub.Auth.API.DTOs.LoginDtoobject:
+
+LoginDto(),ConnectHub.Auth.API.DTOs.LoginDto.LoginDto()8
+	Email.get+ConnectHub.Auth.API.DTOs.LoginDto.Email.get8
+	Email.set+ConnectHub.Auth.API.DTOs.LoginDto.Email.set>
+Password.get.ConnectHub.Auth.API.DTOs.LoginDto.Password.get>
+Password.set.ConnectHub.Auth.API.DTOs.LoginDto.Password.set‹
+$ConnectHub.Auth.API.DTOs.RegisterDtoobjectC
+RegisterDto()2ConnectHub.Auth.API.DTOs.RegisterDto.RegisterDto()A
+UserName.get1ConnectHub.Auth.API.DTOs.RegisterDto.UserName.getA
+UserName.set1ConnectHub.Auth.API.DTOs.RegisterDto.UserName.setG
+DisplayName.get4ConnectHub.Auth.API.DTOs.RegisterDto.DisplayName.getG
+DisplayName.set4ConnectHub.Auth.API.DTOs.RegisterDto.DisplayName.set;
+	Email.get.ConnectHub.Auth.API.DTOs.RegisterDto.Email.get;
+	Email.set.ConnectHub.Auth.API.DTOs.RegisterDto.Email.setA
+Password.get1ConnectHub.Auth.API.DTOs.RegisterDto.Password.getA
+Password.set1ConnectHub.Auth.API.DTOs.RegisterDto.Password.set
+(ConnectHub.Auth.API.Services.UserServiceobject)ConnectHub.Auth.API.Services.IUserServiceŽ
+pUserService(ConnectHub.Auth.API.Repositories.IUserRepository, Microsoft.Extensions.Configuration.IConfiguration)™ConnectHub.Auth.API.Services.UserService.UserService(ConnectHub.Auth.API.Repositories.IUserRepository, Microsoft.Extensions.Configuration.IConfiguration)“
+3RegisterAsync(ConnectHub.Auth.API.DTOs.RegisterDto)\ConnectHub.Auth.API.Services.UserService.RegisterAsync(ConnectHub.Auth.API.DTOs.RegisterDto)‡
+-LoginAsync(ConnectHub.Auth.API.DTOs.LoginDto)VConnectHub.Auth.API.Services.UserService.LoginAsync(ConnectHub.Auth.API.DTOs.LoginDto)e
+LoginWithGoogleAsync(string)EConnectHub.Auth.API.Services.UserService.LoginWithGoogleAsync(string)W
+GetUserByIdAsync(int)>ConnectHub.Auth.API.Services.UserService.GetUserByIdAsync(int)i
+GetUserByUserNameAsync(string)GConnectHub.Auth.API.Services.UserService.GetUserByUserNameAsync(string)±
+BUpdateProfileAsync(int, ConnectHub.Auth.API.DTOs.UpdateProfileDto)kConnectHub.Auth.API.Services.UserService.UpdateProfileAsync(int, ConnectHub.Auth.API.DTOs.UpdateProfileDto)}
+(ChangePasswordAsync(int, string, string)QConnectHub.Auth.API.Services.UserService.ChangePasswordAsync(int, string, string)]
+SearchUsersAsync(string)AConnectHub.Auth.API.Services.UserService.SearchUsersAsync(string)k
+SetOnlineStatusAsync(int, bool)HConnectHub.Auth.API.Services.UserService.SetOnlineStatusAsync(int, bool)]
+GetAllActiveUsersAsync()AConnectHub.Auth.API.Services.UserService.GetAllActiveUsersAsync()c
+DeactivateAccountAsync(int)DConnectHub.Auth.API.Services.UserService.DeactivateAccountAsync(int)[
+GetAllUsersAdminAsync()@ConnectHub.Auth.API.Services.UserService.GetAllUsersAdminAsync()W
+SuspendUserAsync(int)>ConnectHub.Auth.API.Services.UserService.SuspendUserAsync(int)U
+DeleteUserAsync(int)=ConnectHub.Auth.API.Services.UserService.DeleteUserAsync(int)O
+CountUsersAsync():ConnectHub.Auth.API.Services.UserService.CountUsersAsync()s
+#GenerateUniqueUserNameAsync(string)LConnectHub.Auth.API.Services.UserService.GenerateUniqueUserNameAsync(string)‘
+2BuildAuthResponse(ConnectHub.Auth.API.Models.User)[ConnectHub.Auth.API.Services.UserService.BuildAuthResponse(ConnectHub.Auth.API.Models.User)§
+=GenerateJwt(ConnectHub.Auth.API.Models.User, System.DateTime)fConnectHub.Auth.API.Services.UserService.GenerateJwt(ConnectHub.Auth.API.Models.User, System.DateTime)µ
+.ConnectHub.Auth.API.DTOs.UpdateOnlineStatusDtoobjecta
+UpdateOnlineStatusDto()FConnectHub.Auth.API.DTOs.UpdateOnlineStatusDto.UpdateOnlineStatusDto()K
+IsOnline.get;ConnectHub.Auth.API.DTOs.UpdateOnlineStatusDto.IsOnline.getK
+IsOnline.set;ConnectHub.Auth.API.DTOs.UpdateOnlineStatusDto.IsOnline.set³
+)ConnectHub.Auth.API.DTOs.UpdateProfileDtoobjectR
+UpdateProfileDto()<ConnectHub.Auth.API.DTOs.UpdateProfileDto.UpdateProfileDto()L
+DisplayName.get9ConnectHub.Auth.API.DTOs.UpdateProfileDto.DisplayName.getL
+DisplayName.set9ConnectHub.Auth.API.DTOs.UpdateProfileDto.DisplayName.set<
+Bio.get1ConnectHub.Auth.API.DTOs.UpdateProfileDto.Bio.get<
+Bio.set1ConnectHub.Auth.API.DTOs.UpdateProfileDto.Bio.setH
+AvatarUrl.get7ConnectHub.Auth.API.DTOs.UpdateProfileDto.AvatarUrl.getH
+AvatarUrl.set7ConnectHub.Auth.API.DTOs.UpdateProfileDto.AvatarUrl.set×
+
+'ConnectHub.Auth.API.DTOs.UserProfileDtoobjectL
+UserProfileDto()8ConnectHub.Auth.API.DTOs.UserProfileDto.UserProfileDto()@
+
+UserId.get2ConnectHub.Auth.API.DTOs.UserProfileDto.UserId.get@
+
+UserId.set2ConnectHub.Auth.API.DTOs.UserProfileDto.UserId.setD
+UserName.get4ConnectHub.Auth.API.DTOs.UserProfileDto.UserName.getD
+UserName.set4ConnectHub.Auth.API.DTOs.UserProfileDto.UserName.setJ
+DisplayName.get7ConnectHub.Auth.API.DTOs.UserProfileDto.DisplayName.getJ
+DisplayName.set7ConnectHub.Auth.API.DTOs.UserProfileDto.DisplayName.set>
+	Email.get1ConnectHub.Auth.API.DTOs.UserProfileDto.Email.get>
+	Email.set1ConnectHub.Auth.API.DTOs.UserProfileDto.Email.setF
+AvatarUrl.get5ConnectHub.Auth.API.DTOs.UserProfileDto.AvatarUrl.getF
+AvatarUrl.set5ConnectHub.Auth.API.DTOs.UserProfileDto.AvatarUrl.set:
+Bio.get/ConnectHub.Auth.API.DTOs.UserProfileDto.Bio.get:
+Bio.set/ConnectHub.Auth.API.DTOs.UserProfileDto.Bio.setD
+IsOnline.get4ConnectHub.Auth.API.DTOs.UserProfileDto.IsOnline.getD
+IsOnline.set4ConnectHub.Auth.API.DTOs.UserProfileDto.IsOnline.setD
+LastSeen.get4ConnectHub.Auth.API.DTOs.UserProfileDto.LastSeen.getD
+LastSeen.set4ConnectHub.Auth.API.DTOs.UserProfileDto.LastSeen.setF
+CreatedAt.get5ConnectHub.Auth.API.DTOs.UserProfileDto.CreatedAt.getF
+CreatedAt.set5ConnectHub.Auth.API.DTOs.UserProfileDto.CreatedAt.setÇ
+*ConnectHub.Auth.API.DTOs.ChangePasswordDtoobjectU
+ChangePasswordDto()>ConnectHub.Auth.API.DTOs.ChangePasswordDto.ChangePasswordDto()M
+OldPassword.get:ConnectHub.Auth.API.DTOs.ChangePasswordDto.OldPassword.getM
+OldPassword.set:ConnectHub.Auth.API.DTOs.ChangePasswordDto.OldPassword.setM
+NewPassword.get:ConnectHub.Auth.API.DTOs.ChangePasswordDto.NewPassword.getM
+NewPassword.set:ConnectHub.Auth.API.DTOs.ChangePasswordDto.NewPassword.setî
+/ConnectHub.Auth.API.Repositories.UserRepositoryobject0ConnectHub.Auth.API.Repositories.IUserRepository 
+6UserRepository(ConnectHub.Auth.API.Data.AuthDbContext)fConnectHub.Auth.API.Repositories.UserRepository.UserRepository(ConnectHub.Auth.API.Data.AuthDbContext)d
+FindByEmailAsync(string)HConnectHub.Auth.API.Repositories.UserRepository.FindByEmailAsync(string)`
+FindByUserIdAsync(int)FConnectHub.Auth.API.Repositories.UserRepository.FindByUserIdAsync(int)j
+FindByUserNameAsync(string)KConnectHub.Auth.API.Repositories.UserRepository.FindByUserNameAsync(string)j
+FindByGoogleIdAsync(string)KConnectHub.Auth.API.Repositories.UserRepository.FindByGoogleIdAsync(string)h
+ExistsByEmailAsync(string)JConnectHub.Auth.API.Repositories.UserRepository.ExistsByEmailAsync(string)n
+ExistsByUserNameAsync(string)MConnectHub.Auth.API.Repositories.UserRepository.ExistsByUserNameAsync(string)\
+FindAllActiveAsync()DConnectHub.Auth.API.Repositories.UserRepository.FindAllActiveAsync()d
+SearchUsersAsync(string)HConnectHub.Auth.API.Repositories.UserRepository.SearchUsersAsync(string)Œ
+,CreateAsync(ConnectHub.Auth.API.Models.User)\ConnectHub.Auth.API.Repositories.UserRepository.CreateAsync(ConnectHub.Auth.API.Models.User)Œ
+,UpdateAsync(ConnectHub.Auth.API.Models.User)\ConnectHub.Auth.API.Repositories.UserRepository.UpdateAsync(ConnectHub.Auth.API.Models.User)x
+"UpdateOnlineStatusAsync(int, bool)RConnectHub.Auth.API.Repositories.UserRepository.UpdateOnlineStatusAsync(int, bool)r
+FindAllIncludingInactiveAsync()OConnectHub.Auth.API.Repositories.UserRepository.FindAllIncludingInactiveAsync()^
+FindAnyByIdAsync(int)EConnectHub.Auth.API.Repositories.UserRepository.FindAnyByIdAsync(int)\
+HardDeleteAsync(int)DConnectHub.Auth.API.Repositories.UserRepository.HardDeleteAsync(int)V
+CountUsersAsync()AConnectHub.Auth.API.Repositories.UserRepository.CountUsersAsync()

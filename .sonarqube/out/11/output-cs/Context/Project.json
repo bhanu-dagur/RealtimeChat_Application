@@ -1,0 +1,7 @@
+{
+  "language": "C#",
+  "targetFramework": "net8.0",
+  "assemblyName": "ConnectHub.Notification.API.Tests",
+  "projectType": "Test",
+  "projectPath": "D:\\Projects\\RealtimeChatApplication\\ConnectHub\\tests\\ConnectHub.Notification.API.Tests\\ConnectHub.Notification.API.Tests.csproj"
+}

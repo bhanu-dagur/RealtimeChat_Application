@@ -1,0 +1,10 @@
+‰
+~D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\obj\Debug\net8.0\ConnectHub.Shared.AssemblyInfo.csutf-8—
+‹D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8Œ
+€D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\obj\Debug\net8.0\ConnectHub.Shared.GlobalUsings.g.csutf-8j
+aD:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Models\PagedResult.csutf-8j
+aD:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Models\ApiResponse.csutf-8f
+]D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Enums\RoomType.csutf-8n
+eD:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Enums\NotificationType.csutf-8i
+`D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Enums\MessageType.csutf-8h
+_D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\Enums\MemberRole.csutf-8

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>ConnectHub.Shared</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>00000000-0000-0000-0000-000000000000</ProjectGuid>
+  <FullPath>D:\Projects\RealtimeChatApplication\ConnectHub\src\Shared\ConnectHub.Shared\ConnectHub.Shared.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResultFiles>
+    <AnalysisResultFile Id="FilesToAnalyze" Location="D:\Projects\RealtimeChatApplication\.sonarqube\conf\13\FilesToAnalyze.txt" />
+  </AnalysisResultFiles>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">D:\Projects\RealtimeChatApplication\.sonarqube\out\13\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">D:\Projects\RealtimeChatApplication\.sonarqube\out\13</Property>
+    <Property Name="sonar.cs.scanner.telemetry">D:\Projects\RealtimeChatApplication\.sonarqube\out\13\Telemetry.json</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net8.0</TargetFramework>
+</ProjectInfo>

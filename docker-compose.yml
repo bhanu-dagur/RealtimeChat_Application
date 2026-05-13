@@ -1,0 +1,160 @@
+# ConnectHub full-stack compose.
+#
+# Usage:
+#   docker-compose up --build
+#
+# What you get:
+#   • SQL Server 2022          → host port 1433
+#   • Redis 7                  → host port 6379  (used as SignalR backplane in prod)
+#   • Auth, Message, Room,
+#     Hub, Notification, Media → internal :8080  (only the gateway exposes them)
+#   • Gateway (YARP)           → host port 5000  ← Angular talks to this
+#   • Angular (nginx)          → host port 4200
+#
+# Secrets:
+#   • Override Jwt__Key, the SA password, and Cloudinary creds in a .env file.
+#     The defaults below are dev-only and unsafe to deploy.
+
+x-jwt: &jwt-config
+  Jwt__Key: ${JWT_KEY:?Set JWT_KEY in .env}
+  Jwt__Issuer: ConnectHub
+  Jwt__Audience: ConnectHubUsers
+  Jwt__DurationInMinutes: "60"
+
+x-aspnet: &aspnet-defaults
+  ASPNETCORE_ENVIRONMENT: Development
+  ASPNETCORE_URLS: http://+:8080
+  Logging__LogLevel__Default: Information
+
+services:
+  # ── Infrastructure ──────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: ch-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  # ── Backend services ────────────────────────────────────────────
+  auth-api:
+    build:
+      context: ./ConnectHub/src
+      dockerfile: ./Services/ConnectHub.Auth.API/Dockerfile
+    container_name: ch-auth
+    environment:
+      <<: [*aspnet-defaults, *jwt-config]
+      ConnectionStrings__DefaultConnection: ${DATABASE_URL}
+    expose:
+      - "8080"
+
+  message-api:
+    build:
+      context: ./ConnectHub/src
+      dockerfile: ./Services/ConnectHub.Message.API/Dockerfile
+    container_name: ch-message
+    environment:
+      <<: [*aspnet-defaults, *jwt-config]
+      ConnectionStrings__DefaultConnection: ${DATABASE_URL}
+      Services__NotificationApi__Url: http://ch-notification:8080
+      Services__AuthApi__Url: http://ch-auth:8080
+    expose:
+      - "8080"
+
+  room-api:
+    build:
+      context: ./ConnectHub/src
+      dockerfile: ./Services/ConnectHub.Room.API/Dockerfile
+    container_name: ch-room
+    environment:
+      <<: [*aspnet-defaults, *jwt-config]
+      ConnectionStrings__DefaultConnection: ${DATABASE_URL}
+      Services__NotificationApi__Url: http://ch-notification:8080
+      Services__AuthApi__Url: http://ch-auth:8080
+    expose:
+      - "8080"
+
+  hub-api:
+    build:
+      context: ./ConnectHub/src
+      dockerfile: ./Services/ConnectHub.Hub.API/Dockerfile
+    container_name: ch-hub
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      <<: [*aspnet-defaults, *jwt-config]
+      Services__AuthApi__Url: http://ch-auth:8080
+      # Future: wire StackExchange.Redis SignalR backplane via this URL.
+      Redis__ConnectionString: redis:6379
+    expose:
+      - "8080"
+
+  notification-api:
+    build:
+      context: ./ConnectHub/src
+      dockerfile: ./Services/ConnectHub.Notification.API/Dockerfile
+    container_name: ch-notification
+    environment:
+      <<: [*aspnet-defaults, *jwt-config]
+      ConnectionStrings__DefaultConnection: ${DATABASE_URL}
+    expose:
+      - "8080"
+
+  media-api:
+    build:
+      context: ./ConnectHub/src
+      dockerfile: ./Services/ConnectHub.Media.API/Dockerfile
+    container_name: ch-media
+    environment:
+      <<: [*aspnet-defaults, *jwt-config]
+      ConnectionStrings__DefaultConnection: ${DATABASE_URL}
+      Cloudinary__CloudName: ${CLOUDINARY_CLOUD_NAME:-}
+      Cloudinary__ApiKey: ${CLOUDINARY_API_KEY:-}
+      Cloudinary__ApiSecret: ${CLOUDINARY_API_SECRET:-}
+    expose:
+      - "8080"
+
+  # ── API gateway (YARP) ──────────────────────────────────────────
+  gateway:
+    build:
+      context: ./ConnectHub/src
+      dockerfile: ./ConnectHub.Gateway/Dockerfile
+    container_name: ch-gateway
+    depends_on:
+      - auth-api
+      - message-api
+      - room-api
+      - hub-api
+      - notification-api
+      - media-api
+    environment:
+      <<: [*aspnet-defaults, *jwt-config]
+      # Override YARP cluster destinations so the gateway routes to docker-network hostnames
+      # instead of localhost:50xx.
+      ReverseProxy__Clusters__auth-cluster__Destinations__auth-destination__Address: http://auth-api:8080
+      ReverseProxy__Clusters__message-cluster__Destinations__message-destination__Address: http://message-api:8080
+      ReverseProxy__Clusters__room-cluster__Destinations__room-destination__Address: http://room-api:8080
+      ReverseProxy__Clusters__hub-cluster__Destinations__hub-destination__Address: http://hub-api:8080
+      ReverseProxy__Clusters__notification-cluster__Destinations__notification-destination__Address: http://notification-api:8080
+      ReverseProxy__Clusters__media-cluster__Destinations__media-destination__Address: http://media-api:8080
+    ports:
+      - "5000:8080"
+
+  # ── Angular SPA ─────────────────────────────────────────────────
+  web:
+    build:
+      context: ./ConnectHub.Web
+      dockerfile: Dockerfile
+    container_name: ch-web
+    depends_on:
+      - gateway
+    ports:
+      - "4200:80"
+
+volumes:
+  redis-data: # Optional, for redis persistence if needed
+

@@ -1,0 +1,1 @@
+zRmD:\Projects\RealtimeChatApplication\ConnectHub\tests\ConnectHub.Hub.API.Tests\ConnectHub.Hub.API.Tests.csprojòCSharp12
