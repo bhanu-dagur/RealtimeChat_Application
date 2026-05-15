@@ -91,8 +91,10 @@ public class UserService : IUserService
             if (user is not null)
             {
                 user.GoogleId = payload.Subject;
+                // If they don't have an avatar yet, take Google's.
                 if (string.IsNullOrEmpty(user.AvatarUrl) && !string.IsNullOrEmpty(payload.Picture))
                     user.AvatarUrl = payload.Picture;
+
                 user = await _repo.UpdateAsync(user);
             }
         }
@@ -112,6 +114,16 @@ public class UserService : IUserService
                 PasswordHash = string.Empty
             };
             user = await _repo.CreateAsync(user);
+        }
+        else
+        {
+            // For existing users (found by GoogleId or matched by Email), 
+            // ensure the AvatarUrl is synced if it's missing.
+            if (string.IsNullOrEmpty(user.AvatarUrl) && !string.IsNullOrEmpty(payload.Picture))
+            {
+                user.AvatarUrl = payload.Picture;
+                user = await _repo.UpdateAsync(user);
+            }
         }
 
         await _repo.UpdateOnlineStatusAsync(user.UserId, true);

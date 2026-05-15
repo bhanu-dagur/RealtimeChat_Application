@@ -108,10 +108,14 @@ export class ProfileComponent implements OnInit, OnDestroy {
                     this.isSaving.set(false);
                     if (res.success && res.data) {
                         this.profile.set(res.data);
-                        // Refresh the cached AuthResponse so other tabs see the new displayName.
+                        // Refresh the cached AuthResponse so other tabs see the new displayName + avatar.
                         const cur = this.currentUser();
                         if (cur) {
-                            const updated = { ...cur, displayName: res.data.displayName };
+                            const updated: AuthResponse = { 
+                                ...cur, 
+                                displayName: res.data.displayName,
+                                avatarUrl: res.data.avatarUrl
+                            };
                             localStorage.setItem('ch_user', JSON.stringify(updated));
                             this.currentUser.set(updated);
                         }

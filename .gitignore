@@ -25,6 +25,7 @@ pnpm-debug.log*
 *.pdb
 *.mdb
 *.opendb
+*.lscache
 
 # Test results / publish
 **/TestResults/
