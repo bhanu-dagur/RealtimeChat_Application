@@ -64,31 +64,15 @@ builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>()
 builder.Services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrategy>();
 builder.Services.AddInMemoryRateLimiting();
 
-// ── CORS ──────────────────────────────────────────────────────────
-// Origins from Cors:AllowedOrigins (semicolon-separated). Entries starting with
-// "*." treated as suffix wildcards (e.g. "*.vercel.app" matches every preview
-// deploy). In Render set:
-//   Cors__AllowedOrigins = http://localhost:4200;*.vercel.app
-var corsOrigins = builder.Configuration["Cors:AllowedOrigins"]
-    ?.Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
-    ?? new[] { "http://localhost:4200", "http://localhost:63770", "*.vercel.app" };
+// ── CORS ─────────────────────────────────────────────────────────
+var corsOrigins = new[] { "http://localhost:4200", "http://localhost:63770", "*.vercel.app" };
 
-var exactOrigins = corsOrigins.Where(o => !o.Contains("*.")).ToHashSet(StringComparer.OrdinalIgnoreCase);
-var wildcardSuffixes = corsOrigins
-    .Where(o => o.Contains("*."))
-    .Select(o => o[(o.IndexOf("*.") + 1)..])
-    .ToList();
-
-bool IsAllowedOrigin(string origin) =>
-    exactOrigins.Contains(origin) ||
-    (Uri.TryCreate(origin, UriKind.Absolute, out var uri) &&
-     wildcardSuffixes.Any(suf => uri.Host.EndsWith(suf, StringComparison.OrdinalIgnoreCase)));
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
         policy => policy
-            .SetIsOriginAllowed(IsAllowedOrigin)
+            .WithOrigins(corsOrigins)
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials());

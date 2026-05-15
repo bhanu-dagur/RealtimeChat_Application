@@ -80,7 +80,7 @@ public class UserController : ControllerBase
         return Ok(ApiResponse<UserProfileDto>.Ok(user));
     }
 
-    // GET api/users/search?q=ali
+    // GET api/users/search?q=ali 
     [HttpGet("search")]
     [Authorize]
     public async Task<IActionResult> Search([FromQuery] string q)

@@ -191,7 +191,7 @@ public class UserService : IUserService
     {
         var user = await _repo.FindAnyByIdAsync(userId);
         if (user is null) return false;
-        
+
         user.IsActive = false;
         await _repo.UpdateAsync(user);
         return true;
